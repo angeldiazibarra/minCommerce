@@ -46,10 +46,12 @@
         <header>
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12">
-                        
+                    <div class="col-md-6">
                         <p>Logo & Co.</p>
-                        
+                    </div>
+
+                    <div class="col-md-6">
+                                               
                         <nav class="head-menu">
                             <?php wp_nav_menu(array('theme_location' => 'header-menu')); ?>
                             <?php mincommerce_cart_button(); ?>
