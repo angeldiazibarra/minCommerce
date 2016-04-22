@@ -62,6 +62,7 @@ function mincommerce_featured_products() {
             $product = get_product( $featured_query->post->ID );  
 
             // Output product information here  
+            var_dump($product);
 
         endwhile;  
 
