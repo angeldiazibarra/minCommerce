@@ -145,8 +145,9 @@ h1.product_title{
 }
 
 .main #sidebar{
-    margin-top: 70px;
+    margin-top: 65px;
     border: 5px solid #eee;
+    background: white;
     @include border-radius(5px);
     
     ul{
@@ -154,7 +155,7 @@ h1.product_title{
     }
     
     ul.product-categories{
-        margin-bottom: 45px;
+        margin-bottom: 30px;
     }
     
     h3{
