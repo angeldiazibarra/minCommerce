@@ -161,6 +161,15 @@ h1.product_title{
         padding: 20px 0 0;
         li{
             list-style: none;
+            margin-bottom: 10px;
+        }
+        img{
+            width: 60px;
+            height: 60px;
+            float: left;
+        }
+        a{
+            border-bottom: none;
         }
     }
     
