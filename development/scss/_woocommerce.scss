@@ -101,6 +101,21 @@ nav.woocommerce-breadcrumb{
         width: 30%;
         padding: 5px 10px;
     }
+    
+    button{
+        float: left;
+        margin-left: 10px;
+        border-radius: 3px;
+        border: 1px solid $maincolor;
+        color: $maincolor;
+        padding: 5px 10px;
+        background: transparent;
+    }
+    
+    .product_meta{
+        clear: both;
+        margin-top: 20px;
+    }
 }
 
 h1.product_title{
