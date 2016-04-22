@@ -1,9 +1,9 @@
 {
-  "name": "b2bfront",
+  "name": "minCommerce",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/angeldiazibarra/MinPress"
+    "url": "https://github.com/angeldiazibarra/minCommerce"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
