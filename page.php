@@ -8,7 +8,7 @@
 
 get_header(); ?>
 		
-	<section>
+	<section class="main">
             
             <div class="container panel">
                 <div class="row">

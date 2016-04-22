@@ -6,9 +6,9 @@ Template Name: Contact Page
 
 get_header(); ?>
 		
-	<section>
+	<section class="main">
             
-            <div class="container">
+            <div class="container panel">
                 <div class="row">
                     <div class="col-xs-12">
 			
