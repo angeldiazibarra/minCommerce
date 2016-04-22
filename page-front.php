@@ -25,6 +25,7 @@ get_header(); ?>
                         <p><?php _e('<h1>Vaya...</h1><br>Lo siento, no he podido encontrar lo que estabas buscando.'); ?></p>
                         <?php endif; ?>
                     </div>
+                    <?php get_sidebar( 'shop' ); ?>
                 </div>
             </div>
         </section>
