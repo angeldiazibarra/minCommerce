@@ -157,6 +157,13 @@ h1.product_title{
         margin-bottom: 15px;
     }
     
+    ul.product_list_widget{
+        padding: 20px 0 0;
+        li{
+            list-style: none;
+        }
+    }
+    
     h3{
         border-bottom: 1px solid #ccc;
         padding-bottom: 5px;
