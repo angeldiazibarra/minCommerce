@@ -26,6 +26,9 @@ input[type="text"],input[type="email"],input[type="number"],input[type="tel"],in
 
 .head-menu{
     text-align: right;
+    span.label{
+        float: right;
+    }
 }
 
 .menu-header-menu-container{
@@ -41,8 +44,5 @@ input[type="text"],input[type="email"],input[type="number"],input[type="tel"],in
         a{
             border-bottom: none;
         }
-    }
-    span.label{
-        float: right;
     }
 }
