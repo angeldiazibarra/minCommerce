@@ -1,4 +1,12 @@
-<?php get_header(); ?>
+<?php 
+
+/**
+ * The default template for displaying all pages.
+ *
+ * @package minCommerce
+ */
+
+get_header(); ?>
 		
 	<section>
             
