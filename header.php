@@ -46,11 +46,11 @@
         <header>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <p>Logo & Co.</p>
                     </div>
 
-                    <div class="col-md-6">
+                    <div class="col-md-8">
                                                
                         <nav class="head-menu">
                             <?php wp_nav_menu(array('theme_location' => 'header-menu')); ?>
