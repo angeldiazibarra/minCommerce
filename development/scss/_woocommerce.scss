@@ -30,5 +30,8 @@ input[type="text"],input[type="email"],input[type="number"],input[type="tel"],in
         list-style: none;
         float: left;
         padding-right: 15px;
+        a{
+            border-bottom: none;
+        }
     }
 }
