@@ -48,6 +48,8 @@
                 <div class="row">
                     <div class="col-xs-12">
                         
+                        <p>Logo & Co.</p>
+                        
                         <nav class="head-menu">
                             <?php wp_nav_menu(array('theme_location' => 'header-menu')); ?>
                             <?php mincommerce_cart_button(); ?>
