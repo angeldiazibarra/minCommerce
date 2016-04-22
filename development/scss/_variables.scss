@@ -1,0 +1,28 @@
+// Fonts
+@font-face {
+font-family: "Helvetica Neue";
+src: url("../fonts/HelveticaNeue_Lt.ttf") format("truetype");
+}
+@font-face {
+font-family: "Din Condensed";
+src: url("../fonts/DinCondensed_Md.ttf") format("truetype");
+}
+@font-face {
+font-family: "Open Sans Condensed";
+src: url("../fonts/OpenSans-CondLight.ttf") format("truetype");
+}
+
+// Font Family
+$helvetica:                     'Helvetica Neue', Helvetica, Arial, sans-serif;
+$oscondensed:                   'Open Sans Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$dincondensed:                  'Din Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// Font Weight
+$light:                         200;
+$normal:                        400;
+$bold:                          500;
+$bolder:                        700;
+
+// Colors
+$maincolor:                     #0099dd;
+$mainhover:                     #0088dd;

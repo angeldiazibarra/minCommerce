@@ -1,0 +1,28 @@
+@mixin linear-gradient($fromColor, $toColor) {
+background-color: $toColor;
+background-image: -webkit-gradient(linear, left top, left bottom, from($fromColor), to($toColor)); /* Saf4+, Chrome */
+background-image: -webkit-linear-gradient(top, $fromColor, $toColor); /* Chrome 10+, Saf5.1+, iOS 5+ */
+background-image: -moz-linear-gradient(top, $fromColor, $toColor); /* FF3.6 */
+background-image: -ms-linear-gradient(top, $fromColor, $toColor); /* IE10 */
+background-image: -o-linear-gradient(top, $fromColor, $toColor); /* Opera 11.10+ */
+background-image: linear-gradient(top, $fromColor, $toColor);
+}
+
+@mixin border-radius($radius) {
+-webkit-border-radius: $radius;
+-moz-border-radius: $radius;
+border-radius: $radius;
+background-clip: padding-box;
+}
+
+@mixin box-shadow($shadow) {
+-webkit-box-shadow: $shadow;
+-moz-box-shadow: $shadow;
+box-shadow: $shadow;
+}
+
+@mixin inset-shadow($shadow) {
+   -moz-box-shadow:    inset 0 0 $shadow rgba(0,0,0,0.2);
+   -webkit-box-shadow: inset 0 0 $shadow rgba(0,0,0,0.2);
+   box-shadow:         inset 0 0 $shadow rgba(0,0,0,0.2);
+}

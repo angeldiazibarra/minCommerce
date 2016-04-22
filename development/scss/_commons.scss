@@ -1,0 +1,71 @@
+// COMMON STYLES
+
+html,body{
+    min-width: 320px;
+}
+
+body{
+    font-family: $helvetica;
+    font-weight: $normal;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: black;
+}
+
+header{
+    height: 90px;
+}
+
+footer{
+    font-size: 14px;
+    margin: 15px auto 60px;
+    a{
+        border: none;
+    }
+}
+
+.container{
+    width:320px;
+}
+
+b, strong{
+    font-weight: $bolder;
+}
+
+a{
+    color: #333;
+    border-bottom: 1px solid #ccc;
+}
+
+a:hover{
+    color: #666;
+    text-decoration: none;
+}
+
+a.contactlink{
+    text-decoration: none;
+    border-bottom: none;
+}
+
+blockquote{
+    font-size: 16px;
+    color: #666;
+    font-style: italic;
+    border-left: none;
+    background-color: #fafafa; 
+}
+
+h1, h2, h3, h4, h5, h6{
+    // font-family: $oscondensed;
+}
+
+h1{
+    // font-size: 32px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
