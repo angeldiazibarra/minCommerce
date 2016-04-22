@@ -11,6 +11,16 @@ get_header(); ?>
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
+                        
+                    <?php
+                    /**
+                    * woocommerce_before_main_content hook.
+                    *
+                    * @hooked woocommerce_output_content_wrapper - 10 (outputs opening divs for the content)
+                    * @hooked woocommerce_breadcrumb - 20
+                    */
+                    do_action( 'woocommerce_before_main_content' );
+                    ?>
 			
 <h1>contacto</h1>
 <div class="row">

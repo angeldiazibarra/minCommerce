@@ -6,6 +6,16 @@
                 <div class="row">
                     <div class="col-xs-12">
                         
+                    <?php
+                    /**
+                    * woocommerce_before_main_content hook.
+                    *
+                    * @hooked woocommerce_output_content_wrapper - 10 (outputs opening divs for the content)
+                    * @hooked woocommerce_breadcrumb - 20
+                    */
+                    do_action( 'woocommerce_before_main_content' );
+                    ?>
+                        
 <h1><?php single_post_title(); ?></h1>
 
 <p>Este es mi Blog personal. También puedes leer otros artículos que he escrito sobre <a href="http://www.metricspot.com/blog/author/metricspot/">Marketing</a> y <a href="http://www.eudomus.com/">Permacultura</a>.</p>
