@@ -40,7 +40,15 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
-
-	</section>
+            
+            
+            <div class="container panel">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <?php mincommerce_featured_products(); ?>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 <?php get_footer();
