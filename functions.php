@@ -40,7 +40,7 @@ function mincommerce_cart_button() {
     if($qty==1){
           echo '1 item';
     }
-    echo  '- '.$total.'</span></a>';
+    echo  ' - '.$total.'</span></a>';
 }
 
 add_action( 'init', 'register_my_menus' );
