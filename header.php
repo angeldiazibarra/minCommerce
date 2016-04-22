@@ -66,11 +66,11 @@ $cart_url = $woocommerce->cart->get_cart_url();
 
 // if multiple products in cart
 if($qty>1)
-      echo '<a href="'.$cart_url.'">'.$qty.' products | '.$total.'</a>';
+      echo '<a href="'.$cart_url.'">'.$qty.' productos | '.$total.'</a>';
 
 // if single product in cart
 if($qty==1)
-      echo '<a href="'.$cart_url.'">1 product | '.$total.'</a>';
+      echo '<a href="'.$cart_url.'">1 producto | '.$total.'</a>';
 
 ?>
                         
