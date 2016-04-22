@@ -116,8 +116,11 @@ nav.woocommerce-breadcrumb{
     .product_meta{
         clear: both;
         margin-top: 20px;
-        span{
-            display: inline-block;
+        span.sku_wrapper{
+            display: none;
+        }
+        span.posted_in, span.tagged_as{
+            display: inherit;
         }
     }
 }
