@@ -43,35 +43,6 @@ function mincommerce_cart_button() {
     echo  ' - '.$total.'</span></a>';
 }
 
-function mincommerce_featured_products() {
-    $args = array(  
-        'post_type' => 'product',  
-        'meta_key' => '_featured',  
-        'meta_value' => 'yes',  
-        'posts_per_page' => 1  
-    );  
-
-    $featured_query = new WP_Query( $args );  
-
-    if ($featured_query->have_posts()) :   
-
-        while ($featured_query->have_posts()) :   
-
-            $featured_query->the_post();  
-
-            $product = get_product( $featured_query->post->ID );  
-
-            // Output product information here  
-            var_dump($product);
-
-        endwhile;  
-
-    endif;  
-
-    wp_reset_query(); // Remember to reset  
-
-}
-
 add_action( 'init', 'register_my_menus' );
 
 remove_filter('the_excerpt', 'wpautop');
