@@ -64,3 +64,12 @@ input[type="text"],input[type="email"],input[type="number"],input[type="tel"],in
 .pp_woocommerce a{
     border-bottom: none;
 }
+
+nav.woocommerce-breadcrumb{
+    margin-bottom: 45px;
+}
+
+.main .images, .main .entry-summary{
+    width: 50%;
+    float: left;
+}
