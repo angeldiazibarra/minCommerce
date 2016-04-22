@@ -20,6 +20,8 @@
         <!--[if lt IE 9]>
                 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
+        
+        <?php wp_head(); ?>
 
         <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
         <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_directory'); ?>/resources/css/bootstrap.css" />
@@ -35,8 +37,6 @@
         if (is_singular() && get_option('thread_comments')) {
             wp_enqueue_script('comment-reply');
         }
-
-        wp_head();
         ?>
 
     </head>
