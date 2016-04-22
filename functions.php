@@ -31,14 +31,16 @@ function mincommerce_cart_button() {
     // get cart url
     $cart_url = $woocommerce->cart->get_cart_url();
 
+    echo '<a href="'.$cart_url.'"><span class="label label-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i> ';
     // if multiple products in cart
     if($qty>1){
-          echo '<a href="'.$cart_url.'"><span class="label label-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i> '.$qty.' items | '.$total.'</span></a>';
+          echo $qty.' items';
     }
     // if single product in cart
     if($qty==1){
-          echo '<a href="'.$cart_url.'"><span class="label label-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i> 1 item | '.$total.'</span></a>';
+          echo '1 item';
     }
+    echo  '- '.$total.'</span></a>';
 }
 
 add_action( 'init', 'register_my_menus' );
