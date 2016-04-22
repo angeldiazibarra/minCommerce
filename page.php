@@ -10,7 +10,7 @@ get_header(); ?>
 		
 	<section>
             
-            <div class="container">
+            <div class="container panel">
                 <div class="row">
                     <div class="col-xs-12">
 			
