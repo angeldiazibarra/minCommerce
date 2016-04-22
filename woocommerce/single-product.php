@@ -25,7 +25,7 @@ get_header( 'shop' ); ?>
 
 <div class="container">
     <div class="row">
-        <div class="col-md-8 col-lg-9">
+        <div class="col-md-8">
             
 	<?php
 		/**
@@ -53,7 +53,7 @@ get_header( 'shop' ); ?>
 	?>
         </div>    
         
-        <div class="col-md-4 col-lg-3">
+        <div class="col-md-4">
 
 	<?php
 		/**
