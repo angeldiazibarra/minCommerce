@@ -50,7 +50,7 @@ input[type="text"],input[type="email"],input[type="number"],input[type="tel"],in
     }
 }
 
-li.featured{
+.woocommerce ul.products li.featured{
     padding: 30px;
     border: 1px solid #ccc;
     @include border-radius(3px);
