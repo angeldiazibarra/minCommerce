@@ -3,7 +3,8 @@
     width: 100%;
 }
 
-input[type="text"],input[type="email"],input[type="number"],input[type="tel"],textarea{
+input[type="text"],input[type="email"],input[type="number"],input[type="tel"],input[type="select"],textarea{
     padding: 6px;
+    border: 1px solid #ccc;
     @include border-radius(3px);
 }
