@@ -94,6 +94,7 @@ nav.woocommerce-breadcrumb{
     
     form.cart{
         margin-top: 20px;
+        overflow: hidden;
     }
     
     input.qty{
@@ -115,6 +116,9 @@ nav.woocommerce-breadcrumb{
     .product_meta{
         clear: both;
         margin-top: 20px;
+        span{
+            display: inline-block;
+        }
     }
 }
 
