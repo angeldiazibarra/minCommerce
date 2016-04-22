@@ -20,7 +20,6 @@ function register_my_menus() {
 
 function mincommerce_cart_button() {
     
-    echo '<span class="label label-primary">';
     global $woocommerce;
 
     // get cart quantity
@@ -34,13 +33,12 @@ function mincommerce_cart_button() {
 
     // if multiple products in cart
     if($qty>1){
-          echo '<a href="'.$cart_url.'">'.$qty.' productos | '.$total.'</a>';
+          echo '<a href="'.$cart_url.'"><span class="label label-default">'.$qty.' items | '.$total.'</span></a>';
     }
     // if single product in cart
     if($qty==1){
-          echo '<a href="'.$cart_url.'">1 producto | '.$total.'</a>';
+          echo '<a href="'.$cart_url.'"><span class="label label-default">1 item | '.$total.'</span></a>';
     }
-    echo '</span>';
 }
 
 add_action( 'init', 'register_my_menus' );
