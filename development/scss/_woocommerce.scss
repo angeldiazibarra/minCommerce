@@ -54,7 +54,7 @@ input[type="text"],input[type="email"],input[type="number"],input[type="tel"],in
     padding: 15px;
     border: 1px solid #ccc;
     @include border-radius(3px);
-    button{
+    a.button{
         display: inline-block;
         width: 100%;
         text-align: center;
