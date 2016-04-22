@@ -114,6 +114,11 @@ nav.woocommerce-breadcrumb{
         background: transparent;
     }
     
+    button::hover{
+        color: white;    
+        background: $maincolor;
+    }
+    
     .product_meta{
         clear: both;
         margin-top: 20px;
