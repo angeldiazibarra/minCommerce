@@ -19,6 +19,8 @@ function register_my_menus() {
 }
 
 function mincommerce_cart_button() {
+    
+    echo '<span class="label label-primary">';
     global $woocommerce;
 
     // get cart quantity
@@ -38,6 +40,7 @@ function mincommerce_cart_button() {
     if($qty==1){
           echo '<a href="'.$cart_url.'">1 producto | '.$total.'</a>';
     }
+    echo '</span>';
 }
 
 add_action( 'init', 'register_my_menus' );
