@@ -80,6 +80,11 @@ nav.woocommerce-breadcrumb{
 
 .main .entry-summary{
     padding-left: 15px;
+    
+    .price{
+        font-size: 24px;
+        color: $maincolor;
+    }
 }
 
 h1.product_title{
