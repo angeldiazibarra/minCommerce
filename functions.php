@@ -23,5 +23,3 @@ remove_filter('the_excerpt', 'wpautop');
 remove_filter('term_description','wpautop');
 remove_filter('category_description','wpautop');
 remove_filter('tag_description','wpautop');
-
-?>
