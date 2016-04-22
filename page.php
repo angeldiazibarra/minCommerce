@@ -8,9 +8,9 @@
 
 get_header(); ?>
 		
-	<section class="main">
+	<section class="main default-page">
             
-            <div class="container panel">
+            <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
 			
