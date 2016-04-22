@@ -151,7 +151,7 @@ h1.product_title{
     @include border-radius(5px);
     
     ul{
-        padding: 20px;
+        padding: 20px 20px 0;
     }
     
     ul.product-categories{
