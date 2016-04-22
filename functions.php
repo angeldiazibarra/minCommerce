@@ -33,11 +33,11 @@ function mincommerce_cart_button() {
 
     // if multiple products in cart
     if($qty>1){
-          echo '<a href="'.$cart_url.'"><span class="label label-default">'.$qty.' items | '.$total.'</span></a>';
+          echo '<a href="'.$cart_url.'"><span class="label label-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i> '.$qty.' items | '.$total.'</span></a>';
     }
     // if single product in cart
     if($qty==1){
-          echo '<a href="'.$cart_url.'"><span class="label label-default">1 item | '.$total.'</span></a>';
+          echo '<a href="'.$cart_url.'"><span class="label label-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i> 1 item | '.$total.'</span></a>';
     }
 }
 
