@@ -25,8 +25,9 @@ get_header( 'shop' ); ?>
 
 <div class="container">
     <div class="row">
-        <div class="col-xs-12">
-            <?php
+        <div class="col-md-8">
+            
+	<?php
 		/**
 		 * woocommerce_before_main_content hook.
 		 *
@@ -34,11 +35,7 @@ get_header( 'shop' ); ?>
 		 * @hooked woocommerce_breadcrumb - 20
 		 */
 		do_action( 'woocommerce_before_main_content' );
-            ?>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-8">
+	?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
