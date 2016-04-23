@@ -164,11 +164,13 @@ h1.product_title{
 
 .main .images .thumbnails{
     margin-top: 5px;
-}
-
-.main .images img.attachment-shop_thumbnail{
-    max-width: 22% !important;
-    margin-right: 3%;
+    a img.attachment-shop_thumbnail{
+        max-width: 23% !important;
+        margin-right: 2.66%;
+    }
+    a.last img.attachment-shop_thumbnail{
+        margin-right: 0;
+    }
 }
 
 .main #sidebar{
