@@ -215,7 +215,7 @@ table.my_account_orders, p.myaccount_user{
         a{
             height: 40px;
             padding: 8px 12px;
-            border: 1px solid $mainbg;
+            border: 1px solid transparent;
             background: $mainbg;
             border-bottom-color: #ccc;                
             border-top-left-radius: 5px;
