@@ -81,6 +81,7 @@ nav.woocommerce-breadcrumb{
 
 .main .entry-summary{
     padding-left: 15px;
+    margin-bottom: 45px;
     
     span.amount{
         font-size: 18px;
@@ -201,11 +202,11 @@ table.my_account_orders, p.myaccount_user{
     clear: both;
     padding: 0;
     border-bottom: 1px solid #ccc;
+    overflow: hidden;
     li{
         margin-right: 5px;
         list-style: none;
         float: left;
-        overflow: hidden;
         a{
             height: 40px;
             padding: 6px 9px;
