@@ -213,5 +213,8 @@ table.my_account_orders, p.myaccount_user{
         border: 1px solid #ccc;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
+        &.active{
+            border-bottom-color: white;
+        }
     }
 }
