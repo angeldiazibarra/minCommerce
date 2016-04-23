@@ -278,7 +278,15 @@ table.shop_attributes{
             }
             span.amount{
                 color: $maincolor;
+                display: block;
+            }
+            a.add_to_cart_button{
                 display: inline-block;
+                width: 100%;
+                text-align: center;
+                background-color: $maincolor;
+                color: white;
+                @include border-radius(5px);
             }
         }
         li.last-item{
