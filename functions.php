@@ -40,6 +40,9 @@ function mincommerce_cart_button() {
     if($qty==1){
           echo '1 item';
     }
+    if($qty==0){
+          echo '0 items';
+    }
     echo  ' - '.$total.'</span></a>';
 }
 
