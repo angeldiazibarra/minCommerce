@@ -85,9 +85,9 @@ nav.woocommerce-breadcrumb{
     
     span.amount{
         font-size: 18px;
-        background-color: $maincolor;
-        color: white;
+        color: $maincolor;
         padding: 6px 9px;
+        border: 1px solid $maincolor;
         @include border-radius(3px);
     }
     p.price{    
@@ -110,14 +110,13 @@ nav.woocommerce-breadcrumb{
         margin-left: 10px;
         border-radius: 3px;
         border: 1px solid $maincolor;
-        color: $maincolor;
+        color: white;
         padding: 5px 10px;
-        background: transparent;
+        background: $maincolor;
     }
     
     button:hover{
-        color: white;    
-        background: $maincolor;
+        background: $mainhover;
     }
     
     .product_meta{
