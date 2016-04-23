@@ -254,6 +254,8 @@ table.shop_attributes{
 
 .related{
     margin-top: 45px;
+    clear: both;
+    overflow: hidden;
     h2{
         margin-bottom: 10px;
     }
@@ -269,6 +271,7 @@ table.shop_attributes{
             @include border-radius(10px);
             img{
                 max-width: 100%;
+                height: auto;
             }
         }
     }
