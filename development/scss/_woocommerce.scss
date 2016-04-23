@@ -214,11 +214,15 @@ table.my_account_orders, p.myaccount_user{
         a{
             height: 40px;
             padding: 10px 12px;
-            border: 1px solid #eee;
-            background: #eee;
+            border: 1px solid transparent;
             border-top-left-radius: 5px;
             border-top-right-radius: 5px;
             margin-right: 2px;
+            &:hover{
+                background: #eee;
+                border-color: #eee;
+                border-bottom-color: #ccc;                
+            }
         }
         &.active a{
             border: 1px solid #ccc;
