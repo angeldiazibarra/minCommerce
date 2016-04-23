@@ -323,3 +323,12 @@ table.shop_attributes{
         padding: 6px 10px;
     }
 }
+
+.woocommerce .addresses .address header{
+    height: auto;
+    background: transparent;
+    border: none;
+    h3{
+        font-size: 16px;
+    }
+}
