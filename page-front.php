@@ -12,7 +12,9 @@ get_header(); ?>
                 
                 <div class="row">
                     <div class="col-xs-12">
-                        <div class="banner"></div>
+                        <div class="banner">
+                            <i class="fa fa-camera fa-3x" aria-hidden="true"></i>
+                        </div>
                     </div>
                 </div>
                 
