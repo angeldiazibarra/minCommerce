@@ -279,23 +279,24 @@ table.shop_attributes{
                 display: block;
                 margin-bottom: 15px;
             }
-            a.add_to_cart_button{
-                display: inline-block;
-                width: 100%;
-                text-align: center;
-                background-color: $maincolor;
-                color: white;
-                padding: 6px 0;
-                @include border-radius(5px);
-            }
-            a.add_to_cart_button:hover{
-                background-color: $mainhover;
-            }
         }
         li.last-item{
             margin-right: 0;
         }
     }
+}
+
+a.add_to_cart_button{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: $maincolor;
+    color: white;
+    padding: 6px 0;
+    @include border-radius(5px);
+}
+a.add_to_cart_button:hover{
+    background-color: $mainhover;
 }
 
 .woocommerce-message{
