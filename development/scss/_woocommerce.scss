@@ -213,12 +213,8 @@ h1.product_title{
     }
 }
 
-p.myaccount_user{
+.woocommerce table.my_account_orders, p.myaccount_user{
     margin-bottom: 45px;
-}
-
-table.my_account_orders{
-    margin-bottom: 60px;
 }
 
 .wc-tabs{
