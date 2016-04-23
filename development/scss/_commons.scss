@@ -79,3 +79,10 @@ h2{
 .main{
     padding-top: 45px;
 }
+
+span.label-default{
+    background-color: $maincolor;
+    &:hover{
+        background-color: $mainhover;
+    }
+}
