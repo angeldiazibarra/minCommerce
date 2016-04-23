@@ -1,4 +1,5 @@
 // Fonts
+/*
 @font-face {
 font-family: "Helvetica Neue";
 src: url("../fonts/HelveticaNeue_Lt.ttf") format("truetype");
@@ -11,11 +12,15 @@ src: url("../fonts/DinCondensed_Md.ttf") format("truetype");
 font-family: "Open Sans Condensed";
 src: url("../fonts/OpenSans-CondLight.ttf") format("truetype");
 }
+*/
 
 // Font Family
-$helvetica:                     'Helvetica Neue', Helvetica, Arial, sans-serif;
-$oscondensed:                   'Open Sans Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$dincondensed:                  'Din Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$opensans:                      'Open Sans', Helvetica, Arial, sans-serif;
+$headings:                      'Patua One', Georgia, Arial, sans-serif;
+$blockquotes:                   'Crimson Text', Cambria, Georgia, 'Times New Roman', Times, serif;
+// $helvetica:                     'Helvetica Neue', Helvetica, Arial, sans-serif;
+// $oscondensed:                   'Open Sans Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+// $dincondensed:                  'Din Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 // Font Weight
 $light:                         200;

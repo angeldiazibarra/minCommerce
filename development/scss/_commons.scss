@@ -6,7 +6,7 @@ html,body{
 }
 
 body{
-    font-family: $helvetica;
+    font-family: $opensans;
     font-weight: $normal;
     font-size: 16px;
     line-height: 1.5em;
@@ -51,15 +51,18 @@ a.contactlink{
 }
 
 blockquote{
-    font-size: 16px;
-    color: #666;
-    font-style: italic;
+    font-family: $blockquotes;
+    font-size: 22px;
+    // color: #444;
+    // font-style: italic;
     border-left: none;
-    background-color: #fafafa; 
+    // background-color: #fafafa; 
+    padding: 20px 0 25px;
+    font-weight: $normal;
 }
 
 h1, h2, h3, h4, h5, h6{
-    // font-family: $oscondensed;
+    font-family: $headings;
 }
 
 h1{
