@@ -203,6 +203,7 @@ table.my_account_orders, p.myaccount_user{
     padding: 0;
     border-bottom: 1px solid #ccc;
     height: 40px;
+    margin-bottom: 15px;
     li{
         height: 40px;
         list-style: none;
@@ -233,7 +234,10 @@ table.my_account_orders, p.myaccount_user{
 }
 
 .wc-tab{
-    padding: 15px;
+    padding: 20px;
     background-color: $mainbg;
     @include border-radius(10px);
+    h2{
+        margin: 0 0 10px;
+    }
 }
