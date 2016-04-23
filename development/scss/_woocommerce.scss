@@ -262,7 +262,14 @@ table.shop_attributes{
         li{
             list-style: none;
             width: 30%;
-            margin-left: 5%;
+            margin-right: 5%;
+            float: left;
+            padding: 10px;
+            border: 1px solid #ccc;
+            @include border-radius(10px);
+            img{
+                max-width: 100%;
+            }
         }
     }
 }
