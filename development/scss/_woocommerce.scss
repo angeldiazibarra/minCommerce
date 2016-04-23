@@ -234,10 +234,12 @@ table.my_account_orders, p.myaccount_user{
 }
 
 .wc-tab{
-    padding: 20px;
+    padding: 20px 20px 10px;
     background-color: $mainbg;
     @include border-radius(10px);
+    color: #666;
     h2{
+        font-size: 18px;
         margin: 0 0 10px;
     }
 }
