@@ -202,11 +202,11 @@ table.my_account_orders, p.myaccount_user{
     clear: both;
     padding: 0;
     border-bottom: 1px solid #ccc;
-    overflow: hidden;
+    height: 40px;
     li{
+        height: 40px;
         list-style: none;
         float: left;
-        overflow: hidden;
         position: relative;
         display: block;
         margin-bottom: -1px;
