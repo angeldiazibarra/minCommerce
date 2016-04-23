@@ -238,6 +238,7 @@ table.my_account_orders, p.myaccount_user{
     background-color: $mainbg;
     @include border-radius(10px);
     color: #666;
+    font-size: 14px;
     h2{
         font-size: 18px;
         margin: 0 0 10px;
@@ -246,6 +247,7 @@ table.my_account_orders, p.myaccount_user{
 
 table.shop_attributes{
     td, th {
+        text-align: left;
         padding: 3px 9px;
     }
 }
