@@ -204,16 +204,19 @@ table.my_account_orders, p.myaccount_user{
     border-bottom: 1px solid #ccc;
     overflow: hidden;
     li{
-        margin-right: 5px;
         list-style: none;
         float: left;
         overflow: hidden;
+        position: relative;
+        display: block;
+        margin-bottom: -1px;
         a{
             height: 40px;
             padding: 6px 9px;
             border: 1px solid #ccc;
             border-top-left-radius: 5px;
             border-top-right-radius: 5px;
+            margin-right: 2px;
         }
         &.active a{
             border-bottom-color: white;
