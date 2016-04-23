@@ -294,6 +294,8 @@ table.shop_attributes{
     color: white;
     padding: 6px 0;
     @include border-radius(5px);
+    font-size: 16px;
+    font-weight: normal;
 }
 .woocommerce a.button, a.add_to_cart_button:hover{
     background-color: $mainhover;
