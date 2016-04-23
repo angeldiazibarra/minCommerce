@@ -43,8 +43,6 @@ get_header( 'shop' ); ?>
 
 		<?php endwhile; // end of the loop. ?>
 
-            xxx
-            
 	<?php
 		/**
 		 * woocommerce_after_main_content hook.
@@ -53,8 +51,6 @@ get_header( 'shop' ); ?>
 		 */
 		do_action( 'woocommerce_after_main_content' );
 	?>
-            
-            yyy
 
         </div>    
         
