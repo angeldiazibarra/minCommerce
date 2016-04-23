@@ -210,15 +210,19 @@ table.my_account_orders, p.myaccount_user{
         position: relative;
         display: block;
         margin-bottom: -1px;
+        padding-top: 8px;
         a{
             height: 40px;
-            padding: 8px 12px;
-            border: 1px solid #ccc;
+            padding: 10px 12px;
+            border: 1px solid #eee;
+            background: #eee;
             border-top-left-radius: 5px;
             border-top-right-radius: 5px;
             margin-right: 2px;
         }
         &.active a{
+            border: 1px solid #ccc;
+            background: white;
             border-bottom-color: white;
         }
     }
