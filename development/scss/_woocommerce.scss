@@ -198,6 +198,7 @@ table.my_account_orders, p.myaccount_user{
 }
 
 .wc-tabs{
+    display: none;
     clear: both;
     padding: 0;
     border-bottom: 1px solid #ccc;
@@ -233,6 +234,7 @@ table.my_account_orders, p.myaccount_user{
 }
 
 .wc-tab{
+    clear: both;
     padding: 20px 20px 10px;
     background-color: $mainbg;
     @include border-radius(10px);
