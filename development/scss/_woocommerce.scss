@@ -251,3 +251,16 @@ table.shop_attributes{
         padding: 3px 9px;
     }
 }
+
+.related{
+    margin-top: 45px;
+    h2{
+        margin-bottom: 10px;
+    }
+    ul.products{
+        padding: 0;
+        li{
+            list-style: none;
+        }
+    }
+}
