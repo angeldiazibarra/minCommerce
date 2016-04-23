@@ -205,11 +205,13 @@ table.my_account_orders, p.myaccount_user{
     border-bottom: 1px solid #ccc;
     height: 70px;
     li{
-        margin: 0 5px;
+        margin-right: 5px;
         height: 40px;
         list-style: none;
         float: left;
         padding: 6px 9px;
         border: 1px solid #ccc;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
     }
 }
