@@ -213,8 +213,12 @@ h1.product_title{
     }
 }
 
-table.my_account_orders, p.myaccount_user{
+p.myaccount_user{
     margin-bottom: 45px;
+}
+
+table.my_account_orders{
+    margin-bottom: 60px;
 }
 
 .wc-tabs{
