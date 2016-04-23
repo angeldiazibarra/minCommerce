@@ -266,16 +266,19 @@ table.shop_attributes{
             width: 30%;
             margin-right: 5%;
             float: left;
-            padding: 10px;
+            padding: 15px;
             border: 1px solid #ccc;
             @include border-radius(10px);
             img{
                 max-width: 100%;
                 height: auto;
-                margin-bottom: 16px;
             }
             h3{
                 font-size: 16px;
+            }
+            span.amount{
+                color: $maincolor;
+                display: inline-block;
             }
         }
         li.last-item{
