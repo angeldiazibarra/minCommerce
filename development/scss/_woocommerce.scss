@@ -275,10 +275,15 @@ table.shop_attributes{
             h3{
                 font-size: 16px;
             }
+            span.price{
+                display: block;
+                overflow: hidden;
+            }
             span.amount{
                 color: $maincolor;
-                display: block;
-                margin-bottom: 15px;
+                padding: 6px 9px;
+                border: 1px solid $maincolor;
+                @include border-radius(3px);
             }
             a.add_to_cart_button{
                 display: inline-block;
