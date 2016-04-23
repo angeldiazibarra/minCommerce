@@ -51,6 +51,7 @@ get_header( 'shop' ); ?>
 		 */
 		do_action( 'woocommerce_after_main_content' );
 	?>
+
         </div>    
         
         <div class="col-md-4">
