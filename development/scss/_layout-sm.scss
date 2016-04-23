@@ -9,6 +9,15 @@
 }
 */
 
+.main .images, .main .entry-summary{
+    width: 50%;
+    float: left;
+}
+
+.main .images{
+    padding-right: 15px;
+}
+
 .wc-tabs{
     display:block;
 }
