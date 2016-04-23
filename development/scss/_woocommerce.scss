@@ -231,3 +231,9 @@ table.my_account_orders, p.myaccount_user{
         }
     }
 }
+
+.wc-tab{
+    padding: 15px;
+    background-color: $mainbg;
+    @include border-radius(10px);
+}
