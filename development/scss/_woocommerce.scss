@@ -257,7 +257,7 @@ table.shop_attributes{
     clear: both;
     overflow: hidden;
     h2{
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
     ul.products{
         padding: 0;
@@ -272,7 +272,14 @@ table.shop_attributes{
             img{
                 max-width: 100%;
                 height: auto;
+                margin-bottom: 16px;
             }
+            h3{
+                font-size: 16px;
+            }
+        }
+        li.last-item{
+            margin-right: 0;
         }
     }
 }
