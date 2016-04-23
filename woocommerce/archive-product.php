@@ -19,15 +19,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
-?>
+get_header( 'shop' ); ?>
 
 <section class="main">
 
 <div class="container">
     <div class="row">
         <div class="col-md-8">
-
-<?php get_header( 'shop' ); ?>
 
 	<?php
 		/**
