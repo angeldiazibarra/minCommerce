@@ -286,7 +286,7 @@ table.shop_attributes{
     }
 }
 
-a.add_to_cart_button{
+.woocommerce a.button, a.add_to_cart_button{
     display: inline-block;
     width: 100%;
     text-align: center;
@@ -295,7 +295,7 @@ a.add_to_cart_button{
     padding: 6px 0;
     @include border-radius(5px);
 }
-a.add_to_cart_button:hover{
+.woocommerce a.button, a.add_to_cart_button:hover{
     background-color: $mainhover;
 }
 
