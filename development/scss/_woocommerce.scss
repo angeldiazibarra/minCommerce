@@ -298,3 +298,22 @@ table.shop_attributes{
         }
     }
 }
+
+.woocommerce-message{
+    margin-bottom: 30px;
+    padding: 8px 8px 8px 12px;
+    background: #eee;
+    font-size: 14px;
+    height: 40px;
+    a{
+        float: right;
+        border-radius: 3px;
+        color: white;
+        padding: 2px 6px;
+        background-color: $maincolor;
+        margin-top: -2px;
+    }
+    a:hover{
+        background-color: $mainhover;
+    }
+}
