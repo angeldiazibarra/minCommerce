@@ -314,3 +314,10 @@ table.shop_attributes{
         background-color: $mainhover;
     }
 }
+
+.woocommerce-ordering{
+    margin-bottom: 15px;
+    select.orderby{
+        padding: 6px 10px;
+    }
+}
