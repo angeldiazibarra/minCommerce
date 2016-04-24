@@ -10,7 +10,7 @@
                     </div>
                     <div class="col-md-3 col-md-offset-3">
                         <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/eudomus-120.png" alt="Logo" />
-                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/payment-methods.png" alt="Pago Online Seguro" />
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/payment-methods.png" alt="Pago Online Seguro" class="paymethods" />
                     </div>
                 </div>
             </div>
