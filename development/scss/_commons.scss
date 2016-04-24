@@ -127,6 +127,8 @@ footer{
     font-weight: $bold;
     ul > li{
         float: none;
+        width: 100%;
+        padding: 0;
         a{
             color: #aaa;
         }
