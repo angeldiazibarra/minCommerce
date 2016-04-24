@@ -122,7 +122,6 @@ footer{
     overflow: hidden;
     line-height: 24px;
     font-size: 14px;
-    font-weight: $bold;
     }
     ul > li{
         float: none;
@@ -133,6 +132,7 @@ footer{
         }
     }
     ul > li:first-child{
+        font-weight: $bold;
         line-height: 30px;
         a{
             color: $maincolor;
