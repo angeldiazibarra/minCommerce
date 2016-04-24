@@ -31,11 +31,11 @@ get_header(); ?>
             </div>    
         </section>    
                 
-	<section class="main">
+	<section class="highlighted">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
-                        <h2>Productos Destacados:</h2>
+                        <h2><i class="fa fa-arrow-right" aria-hidden="true"></i> SEGURO QUE TE INTERESA...</h2>
                         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                         <p><?php the_content(); ?></p>
                         <?php endwhile; else: ?>
