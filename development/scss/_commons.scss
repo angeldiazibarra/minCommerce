@@ -118,13 +118,12 @@ footer{
     img{
         opacity: 0.5;
     }
-}
-
-.menu-footer-menu-container{
+    ul{
     overflow: hidden;
     line-height: 24px;
     font-size: 14px;
     font-weight: $bold;
+    }
     ul > li{
         float: none;
         width: 100%;
