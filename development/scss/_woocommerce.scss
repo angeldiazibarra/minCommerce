@@ -51,10 +51,10 @@ input[type="text"],input[type="email"],input[type="number"],input[type="tel"],in
     }
 }
 
-ul.products{
+.woocommerce ul.products, .products{
     overflow: hidden;
     padding: 0;
-    li{
+    li,li.product{
         list-style: none;
         width: 100%;
         margin-bottom: 15px;
@@ -80,7 +80,7 @@ ul.products{
             text-align: center;
         }
     }
-    li.last-item{
+    li.product.last-item,li.last-item{
         margin-right: 0;
     }
 }
