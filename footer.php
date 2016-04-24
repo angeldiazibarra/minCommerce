@@ -2,8 +2,11 @@
     
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12">
+                    <div class="col-md-6">
                         <?php wp_nav_menu(array('theme_location' => 'footer-menu')); ?>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/eudomus-120.png" alt="Logo" />
                     </div>
                 </div>
             </div>
