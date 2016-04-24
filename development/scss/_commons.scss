@@ -19,12 +19,16 @@ header{
     border-bottom: 1px solid #eee;
 }
 
-footer{
-    font-size: 14px;
-    margin: 15px auto 60px;
-    a{
-        border: none;
-    }
+.footer-block{
+    background-color: #eee;
+    color: #333;
+}
+
+.footer-logo{
+    margin: 30px auto;
+    width: 200px;
+    height: 60px;
+    background-color: #eee;
 }
 
 .container{
