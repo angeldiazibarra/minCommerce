@@ -18,12 +18,21 @@ get_header(); ?>
                     </div>
                 </div>
                 
+            </div>   
+        </section>    
+                
+	<section class="spiralbg">
+            <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
                         <blockquote class="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id elementum eros. Nam eu arcu mauris. Sed aliquet in sapien.</blockquote>
                     </div>
                 </div>
+            </div>    
+        </section>    
                 
+	<section class="main">
+            <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
                         <h2>Productos Destacados:</h2>

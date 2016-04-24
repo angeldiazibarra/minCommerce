@@ -60,6 +60,12 @@ blockquote{
     font-weight: $bolder;
 }
 
+.spiralbg{
+    background-color: $mainbg;
+    background: url(../img/spiral.png);
+    padding: 60px 0;
+}
+
 .center{
     text-align: center;
 }
