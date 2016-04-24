@@ -2,13 +2,13 @@
     
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-sm-6 col-md-3">
                         <?php wp_nav_menu(array('theme_location' => 'first-footer-menu')); ?>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sm-6 col-md-3">
                         <?php wp_nav_menu(array('theme_location' => 'second-footer-menu')); ?>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3 col-md-offset-3">
                         <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/eudomus-120.png" alt="Logo" />
                     </div>
                 </div>
