@@ -58,12 +58,13 @@ blockquote{
     // background-color: #fafafa; 
     padding: 20px 0 25px;
     font-weight: $bolder;
+    margin: 0;
 }
 
 .spiralbg{
     color: white;
     background-color: $maincolor;
-    background: url(../img/spiral.png);
+    background-image: url(../img/spiral.png);
     padding: 60px 0;
 }
 
