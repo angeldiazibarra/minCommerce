@@ -14,7 +14,7 @@ add_theme_support( 'automatic-feed-links' );
 
 function register_my_menus() {
   register_nav_menus(
-    array( 'header-menu' => __( 'Header Menu' ), 'footer-menu' => __( 'Footer Menu' ) )
+    array( 'header-menu' => __( 'Header Menu' ), 'first-footer-menu' => __( 'First Footer Menu' ), 'second-footer-menu' => __( 'Second Footer Menu' ) )
   );
 }
 
