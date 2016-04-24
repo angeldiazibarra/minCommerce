@@ -25,7 +25,7 @@
         
         <link href="//fonts.googleapis.com/css?family=Open+Sans:300,600,300italic" rel="stylesheet" type="text/css" />
         <link href="//fonts.googleapis.com/css?family=Patua+One" rel="stylesheet" type="text/css" />
-        <link href="//fonts.googleapis.com/css?family=Crimson+Text:300" rel="stylesheet" type="text/css" />
+        <link href="//fonts.googleapis.com/css?family=Lato:900" rel="stylesheet" type="text/css" />
 
         <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
         <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_directory'); ?>/resources/css/bootstrap.css" />
