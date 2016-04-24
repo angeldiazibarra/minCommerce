@@ -132,7 +132,9 @@ footer{
         }
     }
     ul > li:first-child{
-        color: $maincolor;
         line-height: 30px;
+        a{
+            color: $maincolor;
+        }
     }
 }
