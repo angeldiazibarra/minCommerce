@@ -20,7 +20,7 @@ get_header(); ?>
                 
                 <div class="row">
                     <div class="col-xs-12">
-                        <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id elementum eros. Nam eu arcu mauris. Sed aliquet in sapien.</blockquote>
+                        <blockquote class="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id elementum eros. Nam eu arcu mauris. Sed aliquet in sapien.</blockquote>
                     </div>
                 </div>
                 
