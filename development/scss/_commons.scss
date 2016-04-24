@@ -125,13 +125,13 @@ footer{
     line-height: 24px;
     font-size: 14px;
     font-weight: $bold;
-    li.menu-item{
+    ul > li{
         float: none;
         a{
             color: #aaa;
         }
     }
-    li.menu-item:first-of-type{
+    ul > li:first-child{
         color: $maincolor;
         line-height: 30px;
     }
