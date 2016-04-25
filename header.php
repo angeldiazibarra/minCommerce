@@ -51,7 +51,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <p>Logo & Co.</p>
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/eudomus-120.png" alt="Logo" /> eudomus
                     </div>
 
                     <div class="col-md-8">
