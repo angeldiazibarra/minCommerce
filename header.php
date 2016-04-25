@@ -51,7 +51,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 eudomus">
-                        <a href="<?php echo blog_url(); ?>" ><img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/eudomus-120.png" alt="Logo" /> eudomus</a>
+                        <a href="<?php echo site_url(); ?>" ><img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/eudomus-120.png" alt="Logo" /> eudomus</a>
                     </div>
 
                     <div class="col-md-8 head-menu">
