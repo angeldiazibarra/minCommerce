@@ -58,7 +58,9 @@
                                                
                         <nav class="head-menu">
                             <?php wp_nav_menu(array('theme_location' => 'header-menu')); ?>
-                            <?php mincommerce_cart_button(); ?>
+                            <div class="cart-container">
+                                <?php mincommerce_cart_button(); ?>
+                            </div>
                         </nav>   
                                                
                     </div>
