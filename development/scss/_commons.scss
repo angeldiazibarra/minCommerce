@@ -114,7 +114,10 @@ span.label-default{
 }
 
 footer{
-    background-color: #eee;
+    -webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.25);
+    -moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.25);
+    box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.25);
+    background-color: $mainbg;
     background-image: url(../img/spiral-white.png);
     color: #333;
     padding: 30px 0;
