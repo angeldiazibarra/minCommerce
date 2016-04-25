@@ -45,7 +45,12 @@ input[type="text"],input[type="email"],input[type="number"],input[type="tel"],in
             width: 100%;
             border: 1px solid $maincolor;
             background-color: $maincolor;
+            color: white;
             @include border-radius(5px);
+            &:hover{
+                border: 1px solid $mainhover;
+                background-color: $mainhover;
+            }
         }
     }
 }
