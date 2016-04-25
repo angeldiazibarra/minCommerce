@@ -30,8 +30,12 @@ input[type="text"],input[type="email"],input[type="number"],input[type="tel"],in
     margin-top: 2px;
     .cart-container{
         float: right;
-        width: 135px;
-        height: 32px;
+        // width: 135px;
+        // height: 32px;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        margin-bottom: 3px;
         a{
             // float: right;
             font-size: 0.8em;
