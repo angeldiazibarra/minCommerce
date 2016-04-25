@@ -65,6 +65,22 @@ header .menu li{
     } 
 }
 
+.head-menu{
+    .cart-container{
+        width: 135px;
+        height: 32px;
+        width: auto;
+        a{
+            float: right;
+            font-size: 0.8em;
+            padding: 7px 9px; 
+            // display: inline-block;
+            width: auto;
+            @include border-radius(3px);
+        }
+    }
+}
+
 footer .menu li{
     padding-right: 20px;
 }
