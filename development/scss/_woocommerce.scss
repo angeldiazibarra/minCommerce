@@ -30,9 +30,8 @@ input[type="text"],input[type="email"],input[type="number"],input[type="tel"],in
     margin-top: 32px;
     .cart-container{
         float: right;
-        a{
-            position: absolute;
-        }
+        width: 135px;
+        height: 32px;
     }
     span.label{
         // float: right;
