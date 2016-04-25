@@ -9,8 +9,14 @@
                         <?php wp_nav_menu(array('theme_location' => 'second-footer-menu')); ?>
                     </div>
                     <div class="col-md-3 col-md-offset-3">
-                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/eudomus-120.png" alt="Logo" />
-                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/payment-methods.png" alt="Pago Online Seguro" class="paymethods" />
+                        <div class="row">
+                            <div class="col-xs-12 eudomus">
+                                <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/eudomus-120.png" alt="Logo" /> eudomus
+                            </div>
+                            <div class="col-xs-12">
+                                <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/payment-methods.png" alt="Pago Online Seguro" class="paymethods" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
