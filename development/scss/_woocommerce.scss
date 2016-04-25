@@ -29,6 +29,10 @@ input[type="text"],input[type="email"],input[type="number"],input[type="tel"],in
     padding-top: 30px;
     .cart-container{
         display: inline-block;
+        a{
+            position: absolute;
+            margin-top: -24px;
+        }
     }
     span.label{
         // float: right;
