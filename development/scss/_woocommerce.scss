@@ -239,6 +239,7 @@ h1.product_title{
             height: 60px;
             float: left;
             margin-right: 10px;
+            @include border-radius(3px);
         }
         a{
             border-bottom: none;
