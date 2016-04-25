@@ -385,9 +385,9 @@ table.shop_attributes{
 .coupon input[type="text"]{
     padding: 5px;
     margin-bottom: 3px;
-    min-width: 150px;
+    width: 100%;
 }
 
 .woocommerce .cart .button, .woocommerce .cart input.button{
-    width: 100%;
+    width: 100% !important;
 }
