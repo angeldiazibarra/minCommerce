@@ -43,10 +43,10 @@ input[type="text"],input[type="email"],input[type="number"],input[type="tel"],in
             padding: 10px 9px; 
             display: inline-block;
             width: 100%;
+            border: 1px solid $maincolor;
+            background-color: $maincolor;
+            @include border-radius(5px);
         }
-    }
-    span.label{
-
     }
 }
 
