@@ -112,6 +112,10 @@ header .menu li{
             text-align: center;
             line-height: 24px;
             font-size: 16px;
+            background-color: $maincolor;
+            &:hover{
+                background-color: $mainhover;
+            }
         }
     }
     li.product.last-item,li.last-item{
