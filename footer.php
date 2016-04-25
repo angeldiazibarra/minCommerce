@@ -11,7 +11,7 @@
                     <div class="col-sm-4 col-md-3 col-md-offset-3">
                         <div class="row">
                             <div class="col-xs-12 eudomus">
-                                <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/eudomus-120.png" alt="Logo" /> eudomus
+                                <a href="<?php echo blog_url(); ?>" ><img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/eudomus-120.png" alt="Logo" /> eudomus</a>
                             </div>
                             <div class="col-xs-12 paymethods">
                                 <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/payment-methods.png" alt="Pago Online Seguro" class="paymethods" />
