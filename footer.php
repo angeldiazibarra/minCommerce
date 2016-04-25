@@ -16,6 +16,9 @@
                             <div class="col-xs-12">
                                 <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/payment-methods.png" alt="Pago Online Seguro" class="paymethods" />
                             </div>
+                            <div class="col-xs-12">
+                                <span class="fa fa-code"></span> with <span class="fa fa-heart"></span> in Spain
+                            </div>
                         </div>
                     </div>
                 </div>
