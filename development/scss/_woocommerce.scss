@@ -88,8 +88,8 @@ header .menu li{
     padding: 0;
     li,li.product{
         list-style: none;
-        width: 100%;
-        margin-bottom: 15px;
+        width: 100% !important;
+        margin: 0 0 15px !important;
         float: left;
         padding: 15px;
         border: 1px solid #ccc;
