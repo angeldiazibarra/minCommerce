@@ -345,7 +345,8 @@ table.shop_attributes{
     padding: 8px 8px 8px 12px;
     background: #eee;
     font-size: 14px;
-    height: 40px;
+    height: auto !important;
+    min-height: 40px;
     a{
         float: right;
         border-radius: 3px;
