@@ -54,15 +54,11 @@
                         <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/eudomus-120.png" alt="Logo" /> eudomus
                     </div>
 
-                    <div class="col-md-8">
-                                               
-                        <nav class="head-menu">
-                            <?php wp_nav_menu(array('theme_location' => 'header-menu')); ?>
-                            <div class="cart-container">
-                                <?php mincommerce_cart_button(); ?>
-                            </div>
-                        </nav>   
-                                               
+                    <div class="col-md-8 head-menu">
+                        <?php wp_nav_menu(array('theme_location' => 'header-menu')); ?>
+                        <div class="cart-container">
+                            <?php mincommerce_cart_button(); ?>
+                        </div>                                               
                     </div>
                 </div>
             </div>
