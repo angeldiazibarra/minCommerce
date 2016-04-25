@@ -27,8 +27,8 @@
 }
 
 .products li, .products li.product, ul.products li, .woocommerce ul.products li.product{
-    width: 30%;
-    margin-right: 3%;
+    width: 30% !important;
+    margin-right: 3% !important;
     margin-bottom: 0;
 }
 
