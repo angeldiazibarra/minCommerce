@@ -32,12 +32,17 @@ input[type="text"],input[type="email"],input[type="number"],input[type="tel"],in
         float: right;
         width: 135px;
         height: 32px;
+        a{
+            // float: right;
+            font-size: 0.8em;
+            font-weight: normal;
+            padding: 10px 9px; 
+            display: inline-block;
+            width: 100%;
+        }
     }
     span.label{
-        // float: right;
-        font-size: 0.8em;
-        font-weight: normal;
-        padding: 7px 9px;
+
     }
 }
 
@@ -63,7 +68,7 @@ header .menu li{
         margin-bottom: 3px;
         display: inline-block;
         &:hover{
-            border-color: $maincolor;
+            border-color: $mainhover;
             color: $maincolor;
         }
     }
