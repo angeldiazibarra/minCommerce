@@ -136,9 +136,12 @@ footer{
             color: $maincolor;
         }
     }
-    img.paymethods{
-        max-width: 200px;
-        margin: 15px auto 0;
+    .paymethods{
+        text-align: center;
+        img{
+            max-width: 200px;
+            margin-top: 15px;    
+        }
     }
 }
 
