@@ -115,6 +115,7 @@ header .menu li{
             background-color: $maincolor;
             &:hover{
                 background-color: $mainhover;
+                color: white;
             }
         }
     }
