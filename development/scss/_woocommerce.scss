@@ -381,3 +381,13 @@ table.shop_attributes{
     max-width: 45px;
     @include border-radius(3px);
 }
+
+.coupon input[type="text"]{
+    padding: 5px;
+    margin-bottom: 3px;
+    min-width: 150px;
+}
+
+.woocommerce .cart .button, .woocommerce .cart input.button{
+    width: 100%;
+}
