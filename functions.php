@@ -31,7 +31,7 @@ function mincommerce_cart_button() {
     // get cart url
     $cart_url = $woocommerce->cart->get_cart_url();
 
-    echo '<a href="'.$cart_url.'"><span class="label label-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i> ';
+    echo '<a href="'.$cart_url.'"><i class="fa fa-shopping-cart" aria-hidden="true"></i> ';
     // if multiple products in cart
     if($qty>1){
           echo $qty.' items';
@@ -43,7 +43,7 @@ function mincommerce_cart_button() {
     if($qty==0){
           echo '0 items';
     }
-    echo  ' - '.$total.'</span></a>';
+    echo  ' - '.$total.'</a>';
 }
 
 add_action( 'init', 'register_my_menus' );
