@@ -114,9 +114,9 @@ span.label-default{
 }
 
 footer{
-    -webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.25);
-    -moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.25);
-    box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.25);
+    -webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.1);
+    -moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.1);
+    box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.1);
     background-color: $mainbg;
     background-image: url(../img/spiral-white.png);
     color: #333;
