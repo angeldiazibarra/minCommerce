@@ -147,4 +147,10 @@ footer{
 .eudomus{
     font-family: $blockquotes;
     font-weight: $light;
+    color: #aaa;
+    text-align: center;
+    font-size: 24px;
+    img{
+        width: 30px; 
+    }
 }
