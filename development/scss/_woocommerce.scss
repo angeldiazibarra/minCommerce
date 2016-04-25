@@ -53,15 +53,18 @@ input[type="text"],input[type="email"],input[type="number"],input[type="tel"],in
     }
 }
 
-header .menu li a{
-    width: 100%;
-    padding: 10px 0;
-    border: 1px solid #ddd;
-    @include border-radius(5px);
-    margin-bottom: 3px;
-    display: inline-block;
-    &:hover{
-        background-color: #eee;
+header .menu li{
+        width: 100%;
+    a{
+        width: 100%;
+        padding: 10px 0;
+        border: 1px solid #ddd;
+        @include border-radius(5px);
+        margin-bottom: 3px;
+        display: inline-block;
+        &:hover{
+            background-color: #eee;
+        }
     }
 }
 
