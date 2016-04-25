@@ -63,7 +63,8 @@ header .menu li{
         margin-bottom: 3px;
         display: inline-block;
         &:hover{
-            background-color: #eee;
+            border-color: $maincolor;
+            color: $maincolor;
         }
     }
 }
