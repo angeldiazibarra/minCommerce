@@ -58,6 +58,7 @@ header .menu li{
     padding: 10px 0;
     border: 1px solid #ddd;
     @include border-radius(5px);
+    margin-bottom: 3px;
 }
 
 .woocommerce ul.products, .products{
