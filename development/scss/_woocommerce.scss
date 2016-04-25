@@ -25,18 +25,20 @@ input[type="text"],input[type="email"],input[type="number"],input[type="tel"],in
 }
 
 .head-menu{
-    text-align: right;
+    text-align: center;
     padding-top: 30px;
     span.label{
-        float: right;
+        // float: right;
         font-size: 0.8em;
         font-weight: normal;
         padding: 7px 9px;
+        display: inline-block;
     }
 }
 
 .menu-header-menu-container{
-    float: right;
+    // float: right;
+    display: inline-block;
 }
 
 .menu{
