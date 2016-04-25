@@ -59,6 +59,10 @@ header .menu li a{
     border: 1px solid #ddd;
     @include border-radius(5px);
     margin-bottom: 3px;
+    display: inline-block;
+    &:hover{
+        background-color: #eee;
+    }
 }
 
 .woocommerce ul.products, .products{
