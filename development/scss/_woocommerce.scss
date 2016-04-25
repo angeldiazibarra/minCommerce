@@ -27,8 +27,9 @@ input[type="text"],input[type="email"],input[type="number"],input[type="tel"],in
 .head-menu{
     text-align: center;
     height: 32px;
+    margin-top: 32px;
     .cart-container{
-        display: inline-block;
+        float: right;
         a{
             position: absolute;
         }
@@ -42,8 +43,8 @@ input[type="text"],input[type="email"],input[type="number"],input[type="tel"],in
 }
 
 .menu-header-menu-container{
-    // float: right;
-    display: inline-block;
+    float: right;
+    // display: inline-block;
 }
 
 .menu{
