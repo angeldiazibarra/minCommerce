@@ -53,6 +53,10 @@ input[type="text"],input[type="email"],input[type="number"],input[type="tel"],in
     }
 }
 
+header .menu li{
+    width: 100%;
+}
+
 .woocommerce ul.products, .products{
     overflow: hidden;
     padding: 0;
