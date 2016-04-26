@@ -18,12 +18,6 @@ get_header(); ?>
                 
                 <div class="row">
                     <div class="col-xs-12">
-                        <img class="banner" src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-cubos.png" alt="Micro-Arquitecturas" />
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="col-xs-12">
                         <img class="banner" src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-escritorios.png" alt="Espacios de Trabajo" />
                     </div>
                 </div>
@@ -31,6 +25,18 @@ get_header(); ?>
                 <div class="row">
                     <div class="col-xs-12">
                         <img class="banner" src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-portavelas.png" alt="Hazlo Tu Mismo" />
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-xs-12">
+                        <img class="banner" src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-cubos.png" alt="Micro-Arquitecturas" />
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-xs-12">
+                        <img class="banner" src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-esculturas.png" alt="Micro-Arquitecturas" />
                     </div>
                 </div>
                 
