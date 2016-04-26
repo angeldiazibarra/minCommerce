@@ -6,37 +6,37 @@ Template Name: Front Page
 
 get_header(); ?>
 		
-	<section class="main">
+	<section class="main banner">
             
             <div class="container">
                 
                 <div class="row">
                     <div class="col-xs-12">
-                        <img class="banner" src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-ambientes.png" alt="Diseño de Interiores" />
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-ambientes.png" alt="Diseño de Interiores" />
                     </div>
                 </div>
                 
                 <div class="row">
                     <div class="col-xs-12">
-                        <img class="banner" src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-escritorios.png" alt="Espacios de Trabajo" />
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-escritorios.png" alt="Espacios de Trabajo" />
                     </div>
                 </div>
                 
                 <div class="row">
                     <div class="col-xs-12">
-                        <img class="banner" src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-portavelas.png" alt="Hazlo Tu Mismo" />
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-portavelas.png" alt="Hazlo Tu Mismo" />
                     </div>
                 </div>
                 
                 <div class="row">
                     <div class="col-xs-12">
-                        <img class="banner" src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-cubos.png" alt="Micro-Arquitecturas" />
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-cubos.png" alt="Micro-Arquitecturas" />
                     </div>
                 </div>
                 
                 <div class="row">
                     <div class="col-xs-12">
-                        <img class="banner" src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-esculturas.png" alt="Micro-Arquitecturas" />
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-esculturas.png" alt="Micro-Arquitecturas" />
                     </div>
                 </div>
                 

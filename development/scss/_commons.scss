@@ -102,9 +102,11 @@ span.label-default{
 }
 
 .banner{
-    width: 100%;
-    height: auto;
-    margin: 30px 0;
+    img{
+        width: 100%;
+        height: auto;
+        margin: 30px 0;
+    }
     /*
     background-color: #eee;
     text-align: center;
