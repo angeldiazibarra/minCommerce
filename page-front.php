@@ -13,7 +13,8 @@ get_header(); ?>
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="banner">
-                            <i class="fa fa-camera fa-3x" aria-hidden="true"></i>
+                            <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/interior-madera.png" alt="Diseño de Interiores en Madera" />
+                            <?php /* <i class="fa fa-camera fa-3x" aria-hidden="true"></i> */ ?>
                         </div>
                     </div>
                 </div>
