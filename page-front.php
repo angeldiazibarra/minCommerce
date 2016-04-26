@@ -12,8 +12,25 @@ get_header(); ?>
                 
                 <div class="row">
                     <div class="col-xs-12">
-                        <img class="banner" src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/interior-madera.png" alt="Diseño de Interiores en Madera" />
-                        <?php /* <i class="fa fa-camera fa-3x" aria-hidden="true"></i> */ ?>
+                        <img class="banner" src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-ambientes.png" alt="Diseño de Interiores" />
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-xs-12">
+                        <img class="banner" src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-cubos.png" alt="Micro-Arquitecturas" />
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-xs-12">
+                        <img class="banner" src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-escritorios.png" alt="Espacios de Trabajo" />
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-xs-12">
+                        <img class="banner" src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-portavelas.png" alt="Hazlo Tu Mismo" />
                     </div>
                 </div>
                 
