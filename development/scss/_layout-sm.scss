@@ -28,18 +28,21 @@
 
 .products li, .products li.product, ul.products li, .woocommerce ul.products li.product{
     width: 30% !important;
-    margin-right: 3% !important;
+    margin-right: 5% !important;
     margin-bottom: 0;
+    &:last-of-type{
+        margin-right: 0 !important;
+    }
 }
 
 .highlighted .woocommerce ul.products li.product{
     width: 23% !important;
     margin-right: 2.6% !important;
+    &:last-of-type{
+        margin-right: 0 !important;
+    }
 }
 
-.highlighted .woocommerce ul.products li.product:last-of-type{
-    margin-right: 0 !important;
-}
 .woocommerce-ordering select.orderby{
     width: 63%;
 }
