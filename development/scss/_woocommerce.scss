@@ -94,7 +94,7 @@ header .menu li{
         padding: 15px;
         border: 1px solid #ccc;
         @include border-radius(5px);
-        img{
+        img, a img{
             width: 258px;
             height: 258px;
             @include border-radius(5px);
