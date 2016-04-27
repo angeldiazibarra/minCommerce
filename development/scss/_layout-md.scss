@@ -10,3 +10,10 @@ header .eudomus{
 .banner .container{
     max-width: 950px;
 }
+
+.products li, .products li.product, ul.products li, .woocommerce ul.products li.product{
+    img{
+        width: 165px;
+        height: 165px;
+    }
+}
