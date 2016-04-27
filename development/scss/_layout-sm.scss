@@ -39,6 +39,13 @@
     }
 }
 
+.related.products ul.products li.product.last{
+    margin-right: 2% !important;
+    &:last-of-type{
+        margin-right: 0 !important;
+    }
+}
+
 .highlighted .woocommerce ul.products li.product{
     width: 23% !important;
     margin-right: 2.6% !important;
