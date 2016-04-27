@@ -93,9 +93,6 @@ header .menu li{
         float: left;
         padding: 15px;
         border: 1px solid #ccc;
-        &.last{
-            margin-right: 0 !important;
-        }
         @include border-radius(5px);
         img{
             width: 258px;
@@ -127,6 +124,10 @@ header .menu li{
     li.product.last-item,li.last-item{
         margin-right: 0 !important;
     }
+}
+
+ul.products li.product.last{
+    margin-right: 0;
 }
 
 .pp_woocommerce a{
