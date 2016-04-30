@@ -25,22 +25,17 @@ get_header(); ?>
 <h1>contacto</h1>
 <div class="row">
     <div class="col-xs-12">
-        <a href="https://twitter.com/angeldiazibarra" title="twitter" class="contactlink"><i class="fa fa-fw fa-twitter"></i> twitter</a>
+        <p>Conecta conmigo en Facebook y en Twitter</p>
     </div>
 </div>
 <div class="row">
     <div class="col-xs-12">
-        <a href="https://plus.google.com/u/0/+AngelDiazIbarra" title="google plus" class="contactlink"><i class="fa fa-fw fa-google-plus"></i> google+</a>
+        <a href="https://twitter.com/angeldiazibarra" title="twitter" class="contactlink"><i class="fa fa-fw fa-twitter"></i> Twitter</a>
     </div>
 </div>
 <div class="row">
     <div class="col-xs-12">
-        <a href="http://www.linkedin.com/in/angeldiazibarra" title="linkedin" class="contactlink"><i class="fa fa-fw fa-linkedin"></i> linkedin</a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-xs-12">
-        <a href="https://github.com/angeldiazibarra" title="github" class="contactlink"><i class="fa fa-fw fa-github"></i> github</a>
+        <a href="https://www.facebook.com/bioconstruccion.y.permacultura/" title="Facebook" class="contactlink"><i class="fa fa-fw fa-facebook"></i> Facebook</a>
     </div>
 </div>
 
