@@ -5,6 +5,16 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
+                        
+                    <?php
+                    /**
+                    * woocommerce_before_main_content hook.
+                    *
+                    * @hooked woocommerce_output_content_wrapper - 10 (outputs opening divs for the content)
+                    * @hooked woocommerce_breadcrumb - 20
+                    */
+                    do_action( 'woocommerce_before_main_content' );
+                    ?>
 		
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <h1><?php the_title(); ?></h1>
@@ -17,6 +27,15 @@
 <?php endwhile; else: ?>
 <p><?php _e('<h1>Vaya...</h1><br>Lo siento, no he podido encontrar lo que estabas buscando.'); ?></p>
 <?php endif; ?>
+
+	<?php
+		/**
+		 * woocommerce_after_main_content hook.
+		 *
+		 * @hooked woocommerce_output_content_wrapper_end - 10 (outputs closing divs for the content)
+		 */
+		do_action( 'woocommerce_after_main_content' );
+	?>
 
 <?php comments_template(); ?>
 
