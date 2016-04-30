@@ -15,10 +15,10 @@ get_header(); ?>
                         <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-ambientes-1.png" alt="Diseño de Interiores" />
                     </div>
                     <div class="col-xs-12 hidden-sm col-md-4">
-                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-ambientes-1.png" alt="Diseño de Interiores" />
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-ambientes-2.png" alt="Diseño de Interiores" />
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4">
-                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-ambientes-1.png" alt="Diseño de Interiores" />
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-ambientes-3.png" alt="Diseño de Interiores" />
                     </div>
                 </div>
                 
@@ -27,7 +27,7 @@ get_header(); ?>
                         <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-escritorios-1.png" alt="Espacios de Trabajo" />
                     </div>
                     <div class="col-xs-12 col-sm-6">
-                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-escritorios-1.png" alt="Espacios de Trabajo" />
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-escritorios-2.png" alt="Espacios de Trabajo" />
                     </div>
                 </div>
                 
