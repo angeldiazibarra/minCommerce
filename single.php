@@ -4,7 +4,7 @@
             
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-8">
                         
                     <?php
                     /**
@@ -29,6 +29,7 @@
 <?php endif; ?>
 <?php comments_template(); ?>
 
+                    </div>
                     </div>
                     
                     <div class="col-md-4">
