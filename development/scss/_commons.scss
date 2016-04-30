@@ -24,6 +24,10 @@ header{
     max-width:320px;
 }
 
+.main img{
+    max-width: 100%;
+}
+
 b, strong{
     font-weight: $bolder;
 }
