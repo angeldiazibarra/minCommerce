@@ -10,7 +10,7 @@ get_header(); ?>
             
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12">
+                    <div class="col-md-8">
                         
                     <?php
                     /**
@@ -37,8 +37,6 @@ get_header(); ?>
 		 */
 		do_action( 'woocommerce_after_main_content' );
 	?>
-
-<?php comments_template(); ?>
 
                     </div>
                     
