@@ -11,13 +11,13 @@ get_header(); ?>
             <div class="container">
                 
                 <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="col-xs-12 col-sm-4">
                         <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-ambientes-1.png" alt="Diseño de Interiores" />
                     </div>
-                    <div class="hidden-xs hidden-sm col-md-4">
+                    <div class="hidden-xs col-sm-4">
                         <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-ambientes-2.png" alt="Diseño de Interiores" />
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="col-xs-12 col-sm-4">
                         <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-ambientes-3.png" alt="Diseño de Interiores" />
                     </div>
                 </div>
