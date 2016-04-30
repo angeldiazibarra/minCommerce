@@ -4,7 +4,7 @@
             
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12">
+                    <div class="col-md-12">
                         
                     <?php
                     /**
@@ -30,6 +30,19 @@
 <?php /* comments_template(); */ ?>
 
                     </div>
+                    
+                    <div class="col-md-4">
+
+                     <?php
+                    /**
+                     * woocommerce_sidebar hook.
+                     *
+                     * @hooked woocommerce_get_sidebar - 10
+                     */
+                    do_action( 'woocommerce_sidebar' );
+                    ?>
+                        
+                    </div>  
                 </div>
             </div>
             
