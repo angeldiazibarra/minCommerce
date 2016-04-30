@@ -15,12 +15,6 @@
                     */
                     do_action( 'woocommerce_before_main_content' );
                     ?>
-                        
-<h1><?php single_post_title(); ?></h1>
-
-<p>Este es mi Blog personal. También puedes leer otros artículos que he escrito sobre <a href="http://www.metricspot.com/blog/author/metricspot/">Marketing</a> y <a href="http://www.eudomus.com/">Permacultura</a>.</p>
-
-<br><br>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><h2><?php the_title(); ?></h2></a>
