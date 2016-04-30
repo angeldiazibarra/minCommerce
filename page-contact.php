@@ -25,17 +25,19 @@ get_header(); ?>
 <h1>contacto</h1>
 <div class="row">
     <div class="col-xs-12">
-        <p>Conecta conmigo en Facebook y en Twitter</p>
-    </div>
-</div>
-<div class="row">
-    <div class="col-xs-12">
-        <a href="https://twitter.com/angeldiazibarra" title="twitter" class="contactlink"><i class="fa fa-fw fa-twitter"></i> Twitter</a>
+        <p>Mi nombre en <b>Angel Diaz Ibarra</b> (Zaragoza, 1982). Soy Arquitecto y desde el 2006 llevo desarrollando mi actividad profesional en el mundo de la ingeniería. He desarrollado proyectos de Permacultura y de Bioconstrucción propios y he participado en muchos otros. 
+        <p>Además soy un apasionado de los deportes de montaña, practico Yoga frecuentemente y colaboro escribiendo en otros Blogs.</p>
+        <p>Puedes contactar conmigo vía Facebook o Twitter. Respondo a todos los mensajes a la mayor brevedad posible.</p>
     </div>
 </div>
 <div class="row">
     <div class="col-xs-12">
         <a href="https://www.facebook.com/bioconstruccion.y.permacultura/" title="Facebook" class="contactlink"><i class="fa fa-fw fa-facebook"></i> Facebook</a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <a href="https://twitter.com/angeldiazibarra" title="twitter" class="contactlink"><i class="fa fa-fw fa-twitter"></i> Twitter</a>
     </div>
 </div>
 
