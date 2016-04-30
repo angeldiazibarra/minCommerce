@@ -4,7 +4,7 @@
             
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12">
+                    <div class="col-md-8">
                         
                     <?php
                     /**
@@ -29,9 +29,30 @@
 <?php endwhile; else: ?>
 <p><?php _e('<h2>Vaya...</h2><br>Lo siento, no he podido encontrar lo que estabas buscando.'); ?></p>
 <?php endif; ?>
-<?php get_comments(); ?>
+
+	<?php
+		/**
+		 * woocommerce_after_main_content hook.
+		 *
+		 * @hooked woocommerce_output_content_wrapper_end - 10 (outputs closing divs for the content)
+		 */
+		do_action( 'woocommerce_after_main_content' );
+	?>
 
                     </div>
+                    
+                    <div class="col-md-4">
+
+                     <?php
+                    /**
+                     * woocommerce_sidebar hook.
+                     *
+                     * @hooked woocommerce_get_sidebar - 10
+                     */
+                    do_action( 'woocommerce_sidebar' );
+                    ?>
+                        
+                    </div>                      
                 </div>
             </div>
 		
