@@ -30,18 +30,10 @@
 <?php comments_template(); ?>
 
                     </div>
-                    </div>
                     
                     <div class="col-md-4">
 
-                     <?php
-                    /**
-                     * woocommerce_sidebar hook.
-                     *
-                     * @hooked woocommerce_get_sidebar - 10
-                     */
-                    do_action( 'woocommerce_sidebar' );
-                    ?>
+                        <p>xxx</p>
                         
                     </div>  
                 </div>
