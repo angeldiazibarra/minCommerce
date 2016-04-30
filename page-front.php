@@ -11,23 +11,38 @@ get_header(); ?>
             <div class="container">
                 
                 <div class="row">
-                    <div class="col-xs-12">
-                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-ambientes.png" alt="Diseño de Interiores" />
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-ambientes-1.png" alt="Diseño de Interiores" />
+                    </div>
+                    <div class="col-xs-12 hidden-sm col-md-4">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-ambientes-1.png" alt="Diseño de Interiores" />
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-ambientes-1.png" alt="Diseño de Interiores" />
                     </div>
                 </div>
                 
                 <div class="row">
-                    <div class="col-xs-12">
-                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-escritorios.png" alt="Espacios de Trabajo" />
+                    <div class="col-xs-12 col-sm-6">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-escritorios-1.png" alt="Espacios de Trabajo" />
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-escritorios-1.png" alt="Espacios de Trabajo" />
                     </div>
                 </div>
                 
                 <div class="row">
-                    <div class="col-xs-12">
-                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-portavelas.png" alt="Hazlo Tu Mismo" />
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-portavelas-1.png" alt="Hazlo Tu Mismo" />
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-portavelas-2.png" alt="Hazlo Tu Mismo" />
+                    </div>
+                    <div class="col-xs-12 hidden-sm col-md-4">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-portavelas-3.png" alt="Hazlo Tu Mismo" />
                     </div>
                 </div>
-                
+<?php /*                
                 <div class="row">
                     <div class="col-xs-12">
                         <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-cubos.png" alt="Micro-Arquitecturas" />
@@ -39,7 +54,7 @@ get_header(); ?>
                         <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/banner-esculturas.png" alt="Micro-Arquitecturas" />
                     </div>
                 </div>
-                
+*/ ?>                
             </div>   
         </section>    
                 
