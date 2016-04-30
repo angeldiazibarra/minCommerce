@@ -5,16 +5,6 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
-                        
-                    <?php
-                    /**
-                    * woocommerce_before_main_content hook.
-                    *
-                    * @hooked woocommerce_output_content_wrapper - 10 (outputs opening divs for the content)
-                    * @hooked woocommerce_breadcrumb - 20
-                    */
-                    do_action( 'woocommerce_before_main_content' );
-                    ?>
 		
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <h1><?php the_title(); ?></h1>
@@ -33,7 +23,14 @@
                     
                     <div class="col-md-4">
 
-                        <p>xxx</p>
+                     <?php
+                    /**
+                     * woocommerce_sidebar hook.
+                     *
+                     * @hooked woocommerce_get_sidebar - 10
+                     */
+                    do_action( 'woocommerce_sidebar' );
+                    ?>
                         
                     </div>  
                 </div>
