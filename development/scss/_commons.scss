@@ -24,8 +24,14 @@ header{
     max-width:320px;
 }
 
-.main img{
-    max-width: 100%;
+.main{
+    img{
+        max-width: 100%;
+    }
+    iframe{
+        width: 100%;
+        height: 300px;
+    }
 }
 
 b, strong{
