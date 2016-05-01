@@ -39,9 +39,13 @@
 		 */
 		do_action( 'woocommerce_after_main_content' );
 	?>
+  
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-9 col-sm-offset-3 navigation">
+                            <p><?php posts_nav_link(); ?></p>
+                        </div>
+                    </div>  
 
-                    <div class="navigation"><p><?php posts_nav_link(); ?></p></div>
-                    
                     </div>
                     
                     <div class="col-md-4">
