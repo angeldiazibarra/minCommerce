@@ -18,7 +18,7 @@
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><h2><?php the_title(); ?></h2></a>
-<p><?php header_image(); ?></p>
+<p><?php the_post_thumbnail(); ?></p>
 <p><?php the_excerpt(); ?></p>
 <br>
 <?php endwhile; else: ?>

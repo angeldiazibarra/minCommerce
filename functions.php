@@ -68,6 +68,7 @@ add_filter( 'woocommerce_output_related_products_args', 'jk_related_products_arg
 }
 
 add_action( 'init', 'register_my_menus' );
+add_theme_support( 'post-thumbnails' );
 
 remove_filter('the_excerpt', 'wpautop');
 remove_filter('term_description','wpautop');
