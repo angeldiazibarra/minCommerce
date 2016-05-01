@@ -3,6 +3,6 @@
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-ga('create', 'UA-XXXXXXXX-X', 'example.com');
+ga('create', 'UA-8556691-1', 'eudomus.com');
 ga('require', 'displayfeatures');
 ga('send', 'pageview');
