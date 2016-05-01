@@ -18,7 +18,7 @@
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                         <div class="row">
-                            <div class="col-xs-12 col-sm-4 col-md-3">
+                            <div class="col-xs-12 col-sm-4 col-md-3 thumbnailcontainer">
                                 <?php the_post_thumbnail(); ?>
                             </div>
                             <div class="col-xs-12 col-sm-8 col-md-9">
