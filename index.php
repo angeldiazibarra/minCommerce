@@ -40,6 +40,8 @@
 		do_action( 'woocommerce_after_main_content' );
 	?>
 
+                    <div class="navigation"><p><?php posts_nav_link(); ?></p></div>
+                    
                     </div>
                     
                     <div class="col-md-4">
