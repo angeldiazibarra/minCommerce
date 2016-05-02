@@ -37,6 +37,9 @@
 		do_action( 'woocommerce_after_main_content' );
 	?>
 
+<br>
+<h4>¡Compártelo!</h4>
+
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <div class="addthis_sharing_toolbox"></div>
 
