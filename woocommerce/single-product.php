@@ -40,12 +40,6 @@ get_header( 'shop' ); ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<?php wc_get_template_part( 'content', 'single-product' ); ?>
-            
-            <br>
-<h4>¡Compártelo!</h4>
-
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<div class="addthis_sharing_toolbox"></div>
 
 		<?php endwhile; // end of the loop. ?>
 
