@@ -48,12 +48,12 @@
                         <hr>
                         <br>
                         <div class="row">
-                            <div class="col-xs-4 col-sm-2">
-                                
+                            <div class="col-xs-4 col-sm-2 author">
+                                <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/adi.png" alt="Avatar" />
                             </div>
                             <div class="col-xs-8 col-sm-10">
                                 <b>Angel Diaz Ibarra</b>
-                                <br>Soy arquitecto, emprendedor y consultor de bioconstrucción. Puedes conectar conmigo vía <a href="https://twitter.com/angeldiazibarra" title="Sígueme en Twitter">Twitter</a> y <a href="https://www.facebook.com/bioconstruccion.y.permacultura/" title="Bioconstrucción y Permacultura">Facebook</a>.
+                                <br>Soy arquitecto, emprendedor y consultor de bioconstrucción. Me gustaría conectar contigo en <a href="https://twitter.com/angeldiazibarra" title="Sígueme en Twitter">Twitter</a> y <a href="https://www.facebook.com/bioconstruccion.y.permacultura/" title="Bioconstrucción y Permacultura">Facebook</a>.
                             </div>
                         </div>
                         <br>

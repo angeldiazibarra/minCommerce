@@ -216,3 +216,8 @@ footer .eudomus{
 .sumome-scrollbox-link,.sumome-welcomemat-action-link,.sumome-popup-link{
     display: none;
 }
+
+.author img{
+    border: 5px solid #eee;
+    @include border-radius(60px);
+}
