@@ -223,7 +223,7 @@ footer .eudomus{
 .author{
     text-align: center;
     img{
-        margin: auto;
+        margin: 0 auto 20px;
         max-width: 120px;
         border: 5px solid #eee;
         @include border-radius(60px);
