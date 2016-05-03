@@ -38,11 +38,18 @@
 	?>
 
 <br>
+
 <h4>¡Compártelo!</h4>
 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <div class="addthis_sharing_toolbox"></div>
 
+<br><br>
+<hr>
+<br><br>
+<b>Angel Diaz Ibarra</b>
+<br>Soy arquitecto, emprendedor y consultor de energías renovables. Puedes conectar conmigo vía <a href="https://twitter.com/angeldiazibarra" title="Sígueme en Twitter">Twitter</a> y <a href="https://www.facebook.com/bioconstruccion.y.permacultura/" title="Bioconstrucción y Permacultura">Facebook</a>.
+<br><br>
 <?php comments_template(); ?>
 
                     </div>
