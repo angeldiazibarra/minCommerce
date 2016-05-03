@@ -37,24 +37,31 @@
 		do_action( 'woocommerce_after_main_content' );
 	?>
 
-<br>
+                        <br>
 
-<h4>¡Compártelo!</h4>
+                        <h4>¡Compártelo!</h4>
 
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<div class="addthis_sharing_toolbox"></div>
+                        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                        <div class="addthis_sharing_toolbox"></div>
 
-<br>
-<hr>
-<br>
-<b>Angel Diaz Ibarra</b>
-<br>Soy arquitecto, emprendedor y consultor de energías renovables. Puedes conectar conmigo vía <a href="https://twitter.com/angeldiazibarra" title="Sígueme en Twitter">Twitter</a> y <a href="https://www.facebook.com/bioconstruccion.y.permacultura/" title="Bioconstrucción y Permacultura">Facebook</a>.
-<br>
-<br>
-<br>
-<br>
-<h4>Deja tu comentario:</h4>
-<?php comments_template(); ?>
+                        <br>
+                        <hr>
+                        <br>
+                        <div class="row">
+                            <div class="col-xs-4 col-sm-2">
+                                
+                            </div>
+                            <div class="col-xs-8 col-sm-10">
+                                <b>Angel Diaz Ibarra</b>
+                                <br>Soy arquitecto, emprendedor y consultor de bioconstrucción. Puedes conectar conmigo vía <a href="https://twitter.com/angeldiazibarra" title="Sígueme en Twitter">Twitter</a> y <a href="https://www.facebook.com/bioconstruccion.y.permacultura/" title="Bioconstrucción y Permacultura">Facebook</a>.
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <h4>Deja tu comentario:</h4>
+                        <?php comments_template(); ?>
 
                     </div>
                     
