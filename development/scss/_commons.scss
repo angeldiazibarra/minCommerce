@@ -28,6 +28,9 @@ header{
     img,textarea{
         max-width: 100%;
     }
+    img{
+        height: auto;
+    }
     .attachment-post-thumbnail{
         @include border-radius(60px);
         border: 5px solid #fafafa;
@@ -217,7 +220,11 @@ footer .eudomus{
     display: none;
 }
 
-.author img{
-    border: 5px solid #eee;
-    @include border-radius(70px);
+.author{
+    text-align: center;
+    img{
+        margin: auto;
+        border: 5px solid #eee;
+        @include border-radius(70px);
+    }
 }
