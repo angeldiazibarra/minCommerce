@@ -229,3 +229,12 @@ footer .eudomus{
         @include border-radius(60px);
     }
 }
+
+ol.commentlist{
+    li{
+        margin: 5px 0;
+    }
+    li.alt{
+        background-color: #fcfcfc;
+    }
+}
