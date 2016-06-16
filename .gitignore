@@ -1,3 +1,4 @@
 /nbproject/
 *.scssc
 node_modules
+.htaccess
