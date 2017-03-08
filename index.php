@@ -50,7 +50,7 @@
                     
                     <div class="col-md-4">
 
-                     <?php
+                    <?php
                     /**
                      * woocommerce_sidebar hook.
                      *

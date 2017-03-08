@@ -224,6 +224,10 @@ h1.product_title{
     background-color: $mainbg;
     @include border-radius(10px);
     
+    img{
+        margin-bottom: 15px;
+    }
+    
     ul{
         padding: 20px;
     }
