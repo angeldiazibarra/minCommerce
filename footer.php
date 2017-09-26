@@ -23,8 +23,6 @@
                 
         </footer>
 	
-    <?php wp_footer(); ?>
-
         <script src="<?php bloginfo('stylesheet_directory'); ?>/resources/js/vendor/jquery.min.js"></script>
         <script src="<?php bloginfo('stylesheet_directory'); ?>/resources/js/vendor/bootstrap.min.js"></script>
         <script src="<?php bloginfo('stylesheet_directory'); ?>/resources/js/scripts.js"></script>
@@ -33,6 +31,8 @@
         <!-- Go to www.addthis.com/dashboard to customize your tools -->
         <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5726a1a2c48b1652"></script>
 
+        <?php wp_footer(); ?>
+        
     </body>
 	
 </html>
