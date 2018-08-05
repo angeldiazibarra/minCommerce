@@ -18,6 +18,7 @@ function register_my_menus() {
   );
 }
 
+/*
 function mincommerce_cart_button() {
     
     global $woocommerce;
@@ -66,6 +67,7 @@ add_filter( 'woocommerce_output_related_products_args', 'jk_related_products_arg
 	$args['columns'] = 1; // arranged in 1 columns
 	return $args;
 }
+*/
 
 add_action( 'init', 'register_my_menus' );
 add_theme_support( 'post-thumbnails' );
