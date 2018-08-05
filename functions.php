@@ -1,12 +1,18 @@
 <?php
 
-if ( function_exists('register_sidebar') )
-	register_sidebar(array(
-	'before_widget' => '',
+function dcms_agregar_nueva_zona_widgets() {
+    register_sidebar(array(
+        'name'          => 'Sidebar Widget',
+        'id'            => 'sidebarwidget',
+        'description'   => 'Sidebar Widget',
+        'before_widget' => '',
 	'after_widget' => '',
 	'before_title' => '<h3>',
 	'after_title' => '</h3>',
-	));
+    ));
+}
+        
+add_action( 'widgets_init', 'agregar_nueva_zona_widgets' );
 	
 add_custom_background();
 
