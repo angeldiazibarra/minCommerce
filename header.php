@@ -64,9 +64,11 @@
                     </div>
 
                     <div class="col-md-8 head-menu">
+                        <?php /*
                         <div class="cart-container">
                             <?php mincommerce_cart_button(); ?>
-                        </div>                                               
+                        </div> 
+                        */ ?>                                           
                         <?php wp_nav_menu(array('theme_location' => 'header-menu')); ?>
                     </div>
                 </div>
