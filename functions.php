@@ -1,6 +1,6 @@
 <?php
 
-function dcms_agregar_nueva_zona_widgets() {
+function agregar_nueva_zona_widgets() {
     register_sidebar(array(
         'name'          => 'Sidebar Widget',
         'id'            => 'sidebarwidget',
