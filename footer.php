@@ -13,9 +13,11 @@
                             <div class="col-xs-12 eudomus">
                                 <a href="<?php echo site_url(); ?>" ><img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/eudomus-120.png" alt="Logo" /> eudomus</a>
                             </div>
+                            <?php /*
                             <div class="col-xs-12 paymethods">
                                 <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/payment-methods.png" alt="Pago Online Seguro" class="paymethods" />
                             </div>
+                            */ ?>
                         </div>
                     </div>
                 </div>
