@@ -9,7 +9,7 @@
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                         <div class="row">
                             <div class="col-xs-12 col-sm-3 thumbnailcontainer">
-                                <?php the_post_thumbnail(); ?>
+                                <?php the_post_thumbnail(array(150, 150)); ?>
                             </div>
                             <div class="col-xs-12 col-sm-9">
                                 <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><h2><?php the_title(); ?></h2></a>
