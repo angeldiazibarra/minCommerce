@@ -29,14 +29,23 @@
                         <hr>
                         <br>
                         <div class="row">
-                            <?php var_dump(get_the_author_meta('ID')); ?>
+                            <?php if(get_the_author_meta('ID') == 2){ ?>
                             <div class="col-sm-3 author">
-                                <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/adi.jpg" alt="Avatar" />
+                                <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/adi.jpg" alt="Angel Diaz" />
                             </div>
                             <div class="col-sm-9">
                                 <br><b>Angel Diaz</b>
                                 <br>Soy arquitecto, emprendedor y consultor de bioconstrucción. Me gustaría conectar contigo en <a href="https://twitter.com/angeldiazibarra" title="Sígueme en Twitter">Twitter</a> y <a href="https://www.facebook.com/bioconstruccion.y.permacultura/" title="Bioconstrucción y Permacultura">Facebook</a>.
                             </div>
+                            <?php }else{ ?>
+                            <div class="col-sm-3 author">
+                                <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/awi.jpg" alt="Awilda Suero" />
+                            </div>
+                            <div class="col-sm-9">
+                                <br><b>Awilda Suero</b>
+                                <br>Soy diseñadora de interiores y home stager. Me gustaría conectar contigo en <a href="https://twitter.com/awisuero" title="Sígueme en Twitter">Twitter</a> y <a href="https://www.pinterest.es/awisuero/" title="Pinterest">Pinterest</a>.
+                            </div>
+                            <?php } ?>
                         </div>
                         <br>
                         <br>
