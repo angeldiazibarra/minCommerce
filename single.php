@@ -29,6 +29,7 @@
                         <hr>
                         <br>
                         <div class="row">
+                            <?php get_the_author_meta( 'ID' ); ?>
                             <div class="col-sm-3 author">
                                 <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/adi.jpg" alt="Avatar" />
                             </div>
