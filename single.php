@@ -8,8 +8,7 @@
 		
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <h1><?php the_title(); ?></h1>
-<small>Publicado el <?php the_date('j/n/Y') ?>
-<br><b>Categorías:</b> <?php the_category(', ') ?></small>
+<small class="posthead"><i class="fa fa-clock-o fa-fw lightgrey"></i> <?php the_date('j-n-Y') ?> &nbsp; &nbsp; <i class="fa fa-tags fa-fw lightgrey"></i> <span class="taglist"><?php the_category(', &nbsp;', '') ?></span></small>
 <br>
 <br>
 <?php the_content(); ?>
