@@ -31,13 +31,13 @@ header{
     img{
         height: auto;
     }
-    .attachment-post-thumbnail{
-        @include border-radius(75px);
-        border: 5px solid #fafafa;
-        margin: 10px auto;
-    }
     .thumbnailcontainer{
         text-align: center;
+        img{
+            @include border-radius(75px);
+            border: 5px solid #fafafa;
+            margin: 10px auto;
+        }
     }
 }
 
