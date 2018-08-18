@@ -12,7 +12,8 @@
 <br>
 <br>
 <?php the_content(); ?>
-<small class="taglist"><br><?php the_tags( '<i class="fa fa-tags fa-fw lightgrey"></i> ', ', &nbsp;', ''); ?></small>
+<small class="taglist"><?php the_tags( '<i class="fa fa-tags fa-fw lightgrey"></i> ', ', &nbsp;', ''); ?></small>
+<br>
 <?php endwhile; else: ?>
 <p><?php _e('<h1>Vaya...</h1><br>Lo siento, no he podido encontrar lo que estabas buscando.'); ?></p>
 <?php endif; ?>
