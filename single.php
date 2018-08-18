@@ -34,7 +34,7 @@
                             </div>
                             <div class="col-sm-9">
                                 <br><b>Angel Diaz</b>
-                                <br>Soy arquitecto, emprendedor y consultor de bioconstrucción. Me gustaría conectar contigo en <a href="https://twitter.com/angeldiazibarra" title="Sígueme en Twitter">Twitter</a> y <a href="https://www.facebook.com/bioconstruccion.y.permacultura/" title="Bioconstrucción y Permacultura">Facebook</a>.
+                                <p>Soy arquitecto, emprendedor y consultor de bioconstrucción. Me gustaría conectar contigo en <a href="https://twitter.com/angeldiazibarra" title="Sígueme en Twitter">Twitter</a> y <a href="https://www.facebook.com/bioconstruccion.y.permacultura/" title="Bioconstrucción y Permacultura">Facebook</a>.</p>
                                 <a href="https://twitter.com/angeldiazibarra" class="twitter-follow-button author-twt" data-show-count="true" data-lang="es">Seguir a @angeldiazibarra</a>
                             </div>
                             <?php }else{ ?>
@@ -43,7 +43,7 @@
                             </div>
                             <div class="col-sm-9">
                                 <br><b>Awilda Suero</b>
-                                <br>Soy diseñadora de interiores y home stager. Me gustaría conectar contigo en <a href="https://twitter.com/awisuero" title="Sígueme en Twitter">Twitter</a> y <a href="https://www.pinterest.es/awisuero/" title="Pinterest">Pinterest</a>.
+                                <p>Soy diseñadora de interiores y home stager. Me gustaría conectar contigo en <a href="https://twitter.com/awisuero" title="Sígueme en Twitter">Twitter</a> y <a href="https://www.pinterest.es/awisuero/" title="Pinterest">Pinterest</a>.</p>
                                 <a href="https://twitter.com/awiwi007" class="twitter-follow-button author-twt" data-show-count="false" data-lang="es">Seguir a Awilda Pérez</a>
                             </div>
                             <?php } ?>
