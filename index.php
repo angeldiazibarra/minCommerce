@@ -15,6 +15,8 @@
                                 <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><h2><?php the_title(); ?></h2></a>
                                 <p><?php the_excerpt(); ?></p>
                                 <br>
+                                <small class="posthead"><i class="fa fa-clock-o fa-fw lightgrey"></i> <?php the_date('j-n-Y') ?> &nbsp; &nbsp; <i class="fa fa-tags fa-fw lightgrey"></i> <span class="taglist"><?php the_category(' ', '') ?></span></small>
+                                <br>
                             </div>
                         </div>
 <?php endwhile; else: ?>
