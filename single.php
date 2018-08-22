@@ -44,7 +44,7 @@
                             </div>
                             <div class="col-sm-9">
                                 <br><b>Elena Delgado</b>
-                                <p>Soy graduada en Administración y Dirección de Empresas y Content Editor en  <a href="https://www.habitissimo.es/" title="Habitissimo">Habitissimo</a>.</p>
+                                <p>Soy graduada en Administración y Dirección de Empresas y trabajo como Content Editor en <a href="https://www.habitissimo.es/" title="Habitissimo">Habitissimo</a>.</p>
                             </div>
                             <?php }else{ ?>
                             <div class="col-sm-3 author">
