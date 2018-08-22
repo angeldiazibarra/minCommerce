@@ -29,7 +29,7 @@
                         <hr>
                         <br>
                         <div class="row">
-                            <?php var_dump(get_the_author_meta('ID')); if(get_the_author_meta('ID') == 2){ ?>
+                            <?php if(get_the_author_meta('ID') == 2){ ?>
                             <div class="col-sm-3 author">
                                 <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/adi.jpg" alt="Angel Diaz" />
                             </div>
@@ -37,6 +37,14 @@
                                 <br><b>Angel Diaz</b>
                                 <p>Soy arquitecto, emprendedor y consultor de bioconstrucción. Me gustaría conectar contigo en <a href="https://twitter.com/angeldiazibarra" title="Sígueme en Twitter">Twitter</a> y <a href="https://www.facebook.com/bioconstruccion.y.permacultura/" title="Bioconstrucción y Permacultura">Facebook</a>.</p>
                                 <a href="https://twitter.com/angeldiazibarra" class="twitter-follow-button author-twt" data-show-count="true" data-lang="es">Seguir a @angeldiazibarra</a>
+                            </div>
+                            <?php }else if(get_the_author_meta('ID') == 4){ ?>
+                            <div class="col-sm-3 author">
+                                <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/elenadelgado.png" alt="Elena Delgado" />
+                            </div>
+                            <div class="col-sm-9">
+                                <br><b>Elena Delgado</b>
+                                <p>Soy graduada en Administración y Dirección de Empresas y Content Editor en  <a href="https://www.habitissimo.es/" title="Habitissimo">Habitissimo</a>.</p>
                             </div>
                             <?php }else{ ?>
                             <div class="col-sm-3 author">
