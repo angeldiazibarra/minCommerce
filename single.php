@@ -29,7 +29,7 @@
                         <hr>
                         <br>
                         <div class="row">
-                            <?php if(get_the_author_meta('ID') == 2){ ?>
+                            <?php var_dump(get_the_author_meta('ID')); if(get_the_author_meta('ID') == 2){ ?>
                             <div class="col-sm-3 author">
                                 <img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/adi.jpg" alt="Angel Diaz" />
                             </div>
