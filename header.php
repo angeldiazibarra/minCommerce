@@ -36,6 +36,7 @@
         <link rel="apple-touch-icon" href="<?php bloginfo('stylesheet_directory'); ?>/favicon.ico" /> 
 
         <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1"/>
+        <meta name="p:domain_verify" content="4a364ad0adbd581c6d258bde133f1902"/>
 
         <?php
         if (is_singular() && get_option('thread_comments')) {
