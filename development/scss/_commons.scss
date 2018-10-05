@@ -258,3 +258,17 @@ ol.commentlist{
 .wpcf7-form-control-wrap,.wpcf7-form-control{
     width: 100%;
 }
+
+.wpcf7-submit{
+    width: 200px;
+    height: 40px;
+    @include border-radius(5px);
+    background-color: #867F77;
+    border-color: #867F77;
+    color: white;
+}
+
+.wpcf7-submit:hover{
+    background-color: #867F77;
+    opacity: 0.9;
+}
