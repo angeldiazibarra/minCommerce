@@ -35,7 +35,7 @@
                             </div>
                             <div class="col-sm-9">
                                 <br><b>Angel Diaz</b>
-                                <p>Soy arquitecto, emprendedor y consultor de bioconstrucción. Me gustaría conectar contigo en <a href="https://twitter.com/angeldiazibarra" title="Sígueme en Twitter">Twitter</a> y <a href="https://www.facebook.com/bioconstruccion.y.permacultura/" title="Bioconstrucción y Permacultura">Facebook</a>.</p>
+                                <p>Soy arquitecto, jefe de obra y co-fundador de EUDOMUS. Puedes contactar conmigo en <a href="https://www.instagram.com/eudomus/" title="Sígueme en Instagram">Instagram</a> y <a href="https://www.facebook.com/eudomus.bioconstruccion.arquitectura/" title="Bioconstrucción y Arquitectura Sostenible">Facebook</a>.</p>
                                 <a href="https://twitter.com/angeldiazibarra" class="twitter-follow-button author-twt" data-show-count="true" data-lang="es">Seguir a @angeldiazibarra</a>
                             </div>
                             <?php }else if(get_the_author_meta('ID') == 4){ ?>
@@ -52,8 +52,8 @@
                             </div>
                             <div class="col-sm-9">
                                 <br><b>Awilda Suero</b>
-                                <p>Soy diseñadora de interiores y home stager. Me gustaría conectar contigo en <a href="https://twitter.com/awisuero" title="Sígueme en Twitter">Twitter</a> y <a href="https://www.pinterest.es/awisuero/" title="Pinterest">Pinterest</a>.</p>
-                                <a href="https://twitter.com/awiwi007" class="twitter-follow-button author-twt" data-show-count="false" data-lang="es">Seguir a Awilda Pérez</a>
+                                <p>Soy diseñadora de interiores, fotógrafa y especialista en <i>home-staging</i>. Puedes conectar conmigo en <a href="https://twitter.com/awisuero" title="Sígueme en Twitter">Twitter</a> y <a href="https://www.pinterest.es/awisuero/" title="Pinterest">Pinterest</a></p>
+                                <a href="https://twitter.com/awiwi007" class="twitter-follow-button author-twt" data-show-count="false" data-lang="es">Seguir a Awilda Suero</a>
                             </div>
                             <?php } ?>
                         </div>
