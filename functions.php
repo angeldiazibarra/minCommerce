@@ -83,3 +83,7 @@ remove_filter('the_excerpt', 'wpautop');
 remove_filter('term_description','wpautop');
 remove_filter('category_description','wpautop');
 remove_filter('tag_description','wpautop');
+
+remove_action( 'wp_head', 'wp_generator' ) ;
+remove_action( 'wp_head', 'wlwmanifest_link' ) ;
+remove_action( 'wp_head', 'rsd_link' ) ;
