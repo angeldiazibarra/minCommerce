@@ -10,6 +10,16 @@ function agregar_nueva_zona_widgets() {
 	'before_title' => '<h3>',
 	'after_title' => '</h3>',
     ));
+    
+    register_sidebar(array(
+        'name'          => 'Pages Widgets',
+        'id'            => 'pageswidgets',
+        'description'   => 'Pages Widgets',
+        'before_widget' => '',
+	'after_widget' => '',
+	'before_title' => '<h3>',
+	'after_title' => '</h3>',
+    ));
 }
         
 add_action( 'widgets_init', 'agregar_nueva_zona_widgets' );
