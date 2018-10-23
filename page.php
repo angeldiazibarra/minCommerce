@@ -24,11 +24,25 @@ get_header(); ?>
                     </div>
                     
                     <div class="col-md-4">
+                        
+<div class="row contactform">
+<div class="col-xs-12">
+[contact-form-7 id="934" title="Formulario de Contacto"]
+</div>
+</div>
+                        
+&nbsp;
 
-                     <?php
-                    dynamic_sidebar( 'sidebarwidget' );
-                    ?>
-                                                                        
+<strong>Oficina de Jaca</strong>
+C/ Infanta Doña Sancha 14
+22700 Jaca (Huesca) - <a href="https://goo.gl/maps/TtLZAxitG6K2" rel="noopener" target="_blank">ver mapa</a>
+
+<i class="fa fa-fw fa-phone"></i> <a href="tel:+34646948958">646 948 958</a> (Angel)
+
+<i class="fa fa-fw fa-at"></i> <a href="mailto:info@eudomus.com">info@eudomus.com</a>
+
+<i class="fa fa-fw fa-whatsapp"></i> <a href="https://api.whatsapp.com/send?phone=+34646948958">WhatsApp</a>
+
                     </div>  
                 </div>
             </div>
