@@ -7,6 +7,8 @@
  */
 
 get_header(); ?>
+
+<?php get_the_post_thumbnail_url(null,'full'); ?>
 		
 	<section class="main default-page">
             
