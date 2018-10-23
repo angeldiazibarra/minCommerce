@@ -26,7 +26,7 @@ get_header(); ?>
                     <div class="col-md-4">
 
                      <?php
-                    dynamic_sidebar( 'sidebarwidget' );
+                    dynamic_sidebar( 'pageswidgets' );
                     ?>
                                                                         
                     </div>  
