@@ -39,7 +39,7 @@ include_once 'header_page.php'; ?>
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <p><h3 class="center">¿Por qué trabajar con nosotros?</h3>
-                        <p class="center"><strong>Porque tu casa lo es todo para ti</strong>.</p>
+                        <p class="center mbot-20"><strong>Porque tu casa lo es todo para ti</strong>.</p>
                         <p>Es donde llegas después de un duro día de trabajo a relajarte y desconectar. Es donde tienes la oportunidad de compartir momentos con tu familia. Es donde comes, donde duermes y donde te sientes seguro.</p>
                         <p>Y es por eso que <strong>tu casa merece ser única</strong>, un hogar de verdad. Una vivienda bien diseñada podría marcar la diferencia entre ser la casa de tus sueños o una mala inversión.</p>
                     </div>
