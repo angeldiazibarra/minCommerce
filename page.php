@@ -6,7 +6,7 @@
  * @package minCommerce
  */
 
-get_header(); ?>
+include_once 'header_page.php'; ?>
 
 <?php /* the_post_thumbnail('full'); */ ?>
 		
