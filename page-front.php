@@ -27,6 +27,7 @@ include_once 'header_page.php'; ?>
                 <div class="row titbox">
                     <div class="col-xs-12">
                         <h1><?php the_title(); ?></h1>
+                        <h3>Nosotros te ayudamos a hacerlos realidad.</h3>
                     </div>
                 </div>
             </div>
