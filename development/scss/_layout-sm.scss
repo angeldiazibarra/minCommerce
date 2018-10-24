@@ -2,13 +2,6 @@
     max-width:none;
 }
 
-/*
-.woocommerce-checkout{
-    padding: 0 30px 30px;
-    background-color: white;
-}
-*/
-
 .main .images, .main .entry-summary{
     width: 50%;
     float: left;
@@ -20,51 +13,6 @@
 
 .main .images{
     padding-right: 15px;
-}
-
-.wc-tabs{
-    display:block;
-}
-
-.products li, .products li.product, ul.products li, .woocommerce ul.products li.product{
-    width: 32% !important;
-    margin-right: 2% !important;
-    margin-bottom: 0;
-    &:last-of-type{
-        margin-right: 0 !important;
-    }
-    img{
-        width: 198px;
-        height: 198px !important;
-    }
-}
-
-.related.products ul.products li.product.last{
-    margin-right: 2% !important;
-    &:last-of-type{
-        margin-right: 0 !important;
-    }
-}
-
-.highlighted .woocommerce ul.products li.product{
-    width: 23% !important;
-    margin-right: 2.6% !important;
-    &:last-of-type{
-        margin-right: 0 !important;
-    }
-    a img{
-        width: 133px;
-        height: 133px;
-    }
-}
-
-.woocommerce-ordering select.orderby{
-    width: 66%;
-}
-
-.woocommerce .addresses .address{
-    float: left;
-    width: 50%;
 }
 
 footer ul > li{
@@ -83,33 +31,8 @@ header .menu li{
     } 
 }
 
-.head-menu{
-    .cart-container{
-        width: 135px;
-        height: 32px;
-        width: auto;
-        a{
-            float: right;
-            font-size: 0.8em;
-            padding: 3px 9px; 
-            // display: inline-block;
-            width: auto;
-            @include border-radius(3px);
-        }
-    }
-}
-
 footer .menu li{
     padding-right: 20px;
-}
-
-.coupon input[type="text"]{
-    width: 150px !important;
-    margin-bottom: 0;
-}
-
-.woocommerce .cart .button, .woocommerce .cart input.button{
-    width: auto !important;
 }
 
 .banner .container{
