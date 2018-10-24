@@ -35,24 +35,19 @@ include_once 'header_page.php'; ?>
         </header>
 		
 	<section class="main default-page">
-            
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-			
-<p><?php the_content(); ?></p>
-<?php endwhile; else: ?>
-<p><?php _e('<h1>Vaya...</h1><br>Lo siento, no he podido encontrar lo que estabas buscando.'); ?></p>
-<?php endif; ?>
-
+                        <p><h3>¿Por qué trabajar con nosotros?</h3>
+                        <p><strong>Porque tu casa lo es todo para ti</strong>.</p>
+                        <p>Es donde llegas después de un duro día de trabajo a relajarte y desconectar. Es donde tienes la oportunidad de compartir momentos con tu familia. Es donde comes, donde duermes y donde te sientes seguro.</p>
+                        <p>Y es por eso que <strong>tu casa merece ser única</strong>, un hogar de verdad. Una vivienda bien diseñada podría marcar la diferencia entre ser la casa de tus sueños o una mala inversión.</p>
                     </div>
                 </div>
             </div>
-            
-	</section>
+        </section>
 
         <section class="contact">
-            
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
@@ -61,7 +56,20 @@ include_once 'header_page.php'; ?>
                     </div>
                 </div>
             </div>
-
         </section>
+                        
+        <section class="main default-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <p>Con <a href="https://eudomus.com/quienes-somos/">un equipo con más de 20 años de experiencia</a> combinada en el mundo de la arquitectura, el diseño de interiores y la construcción, sabemos que <strong>hasta el más mínimo detalle influye</strong> en la experiencia de sentirte &#8220;como en casa&#8221;. Aquí es donde vas a vivir tu vida y todo tiene que estar pensado a la perfección.</p>
+                        <p>Imagina la casa de tus sueños. <a href="https://eudomus.com/servicios/">Nuestro trabajo</a> es ayudarte a diseñarla y construirla. Y nuestra satisfacción es saber que hemos ayudado a <strong>más de 150 clientes a conseguirlo</strong>.</p>
+                    </div>
+                </div>
+            </div>
+            
+	</section>
+
+        
 						
 <?php get_footer();
