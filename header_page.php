@@ -56,22 +56,3 @@
           js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=677351958941488";
           fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
-
-        <header>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 eudomus">xxx
-                        <a href="<?php echo site_url(); ?>" ><img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/eudomus-120.png" alt="eudomus logo" /></a>
-                    </div>
-
-                    <div class="col-md-8 head-menu">
-                        <?php /*
-                        <div class="cart-container">
-                            <?php mincommerce_cart_button(); ?>
-                        </div> 
-                        */ ?>                                           
-                        <?php wp_nav_menu(array('theme_location' => 'header-menu')); ?>
-                    </div>
-                </div>
-            </div>
-        </header>
