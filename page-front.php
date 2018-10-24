@@ -62,7 +62,7 @@ include_once 'header_page.php'; ?>
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <p>Con <a href="https://eudomus.com/quienes-somos/">un equipo con más de 20 años de experiencia</a> combinada en el mundo de la arquitectura, el diseño de interiores y la construcción, sabemos que <strong>hasta el más mínimo detalle influye</strong> en la experiencia de sentirte &#8220;como en casa&#8221;. Aquí es donde vas a vivir tu vida y todo tiene que estar pensado a la perfección.</p>
+                        <p>Con <a href="https://eudomus.com/quienes-somos/">un equipo con más de 20 años de experiencia</a> combinada en el mundo de la arquitectura, el diseño de interiores y la construcción, sabemos que <strong>hasta el más mínimo detalle influye</strong> en la experiencia de sentirte "como en casa". Aquí es donde vas a vivir tu vida y todo tiene que estar pensado a la perfección.</p>
                         <p>Imagina la casa de tus sueños. <a href="https://eudomus.com/servicios/">Nuestro trabajo</a> es ayudarte a diseñarla y construirla. Y nuestra satisfacción es saber que hemos ayudado a <strong>más de 150 clientes a conseguirlo</strong>.</p>
                     </div>
                 </div>
@@ -70,6 +70,8 @@ include_once 'header_page.php'; ?>
             
 	</section>
 
-        
+<?php endwhile; else: ?>
+<p><?php _e('<h1>Vaya...</h1><br>Lo siento, no he podido encontrar lo que estabas buscando.'); ?></p>
+<?php endif; ?>       
 						
 <?php get_footer();
