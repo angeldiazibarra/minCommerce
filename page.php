@@ -29,7 +29,7 @@ include_once 'header_page.php'; ?>
             </div>
         </header>
 
-<?php get_the_post_thumbnail_url(null,'full'); ?>
+xxx <?php get_the_post_thumbnail_url(null,'full'); ?>
 		
 	<section class="main default-page">
             
