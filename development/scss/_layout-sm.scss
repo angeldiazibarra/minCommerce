@@ -19,28 +19,10 @@ footer ul > li{
     text-align: left;
 }
 
-header .menu li{
-    width: auto;
-    padding: 3px 20px 0 0;
-    a{
-        padding: 0;
-        border: none;
-        &:hover{
-            background-color: transparent;
-        }
-    } 
-}
-
 footer .menu li{
     padding-right: 20px;
 }
 
 .banner .container{
     max-width: 730px;
-}
-
-header.pageheader{
-    .front{
-        margin-top: 100px;
-    }
 }

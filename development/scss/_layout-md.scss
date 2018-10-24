@@ -10,3 +10,21 @@ header .eudomus{
 .banner .container{
     max-width: 950px;
 }
+
+header .menu li{
+    width: auto;
+    padding: 3px 20px 0 0;
+    a{
+        padding: 0;
+        border: none;
+        &:hover{
+            background-color: transparent;
+        }
+    } 
+}
+
+header.pageheader{
+    .front{
+        margin-top: 100px;
+    }
+}
