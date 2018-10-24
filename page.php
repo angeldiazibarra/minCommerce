@@ -14,7 +14,7 @@ include_once 'header_page.php'; ?>
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 eudomus">
-                        xxx<a href="<?php echo site_url(); ?>" ><img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/eudomus-120.png" alt="eudomus logo" /></a>
+                        xx<a href="<?php echo site_url(); ?>" ><img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/eudomus-120.png" alt="eudomus logo" /></a>
                     </div>
 
                     <div class="col-md-8 head-menu">
