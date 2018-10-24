@@ -15,7 +15,7 @@ include_once 'header_page.php'; ?>
                         <a href="<?php echo site_url(); ?>" ><img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/eudomus-120-white.png" alt="eudomus logo" /></a>
                     </div>
 
-                    <div class="col-sm-8 col-sm-offset-2 col-md-8 head-menu">
+                    <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-0 head-menu">
                         <?php /*
                         <div class="cart-container">
                             <?php mincommerce_cart_button(); ?>
