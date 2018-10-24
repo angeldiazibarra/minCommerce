@@ -26,6 +26,11 @@ include_once 'header_page.php'; ?>
                         <?php wp_nav_menu(array('theme_location' => 'header-menu')); ?>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1><?php the_title(); ?></h1>
+                    </div>
+                </div>
             </div>
         </header>
 		
@@ -35,7 +40,6 @@ include_once 'header_page.php'; ?>
                 <div class="row">
                     <div class="col-md-8">
 			
-<h1><?php the_title(); ?></h1>
 <p><?php the_content(); ?></p>
 <?php endwhile; else: ?>
 <p><?php _e('<h1>Vaya...</h1><br>Lo siento, no he podido encontrar lo que estabas buscando.'); ?></p>
