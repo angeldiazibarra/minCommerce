@@ -23,7 +23,7 @@ header{
 header.pageheader{
     height: 450px;
     h1{
-        font-size: 48px;
+        font-size: 36px;
     }
     h1, .menu li a{
         color: white;
@@ -31,6 +31,10 @@ header.pageheader{
     }
     .menu li a:hover{
         color: white;
+    }
+    .titbox{
+        position: absolute;
+        top: 385px;
     }
 }
 

@@ -26,7 +26,7 @@ include_once 'header_page.php'; ?>
                         <?php wp_nav_menu(array('theme_location' => 'header-menu')); ?>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row titbox">
                     <div class="col-xs-12">
                         <h1><?php the_title(); ?></h1>
                     </div>
