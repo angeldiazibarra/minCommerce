@@ -60,11 +60,11 @@
         <header>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 eudomus">
+                    <div class="col-lg-4 eudomus">
                         <a href="<?php echo site_url(); ?>" ><img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/eudomus-120.png" alt="eudomus logo" /></a>
                     </div>
 
-                    <div class="col-md-8 head-menu">
+                    <div class="col-lg-8 head-menu">
                         <?php /*
                         <div class="cart-container">
                             <?php mincommerce_cart_button(); ?>

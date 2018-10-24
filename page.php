@@ -13,11 +13,11 @@ include_once 'header_page.php'; ?>
         <header class="pageheader" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('<?php the_post_thumbnail_url('full'); ?>');background-position: center;background-repeat: no-repeat;background-size:cover;">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 eudomus">
+                    <div class="col-lg-4 eudomus">
                         <a href="<?php echo site_url(); ?>" ><img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/eudomus-120-white.png" alt="eudomus logo" /></a>
                     </div>
 
-                    <div class="col-md-8 head-menu">
+                    <div class="col-lg-8 head-menu">
                         <?php /*
                         <div class="cart-container">
                             <?php mincommerce_cart_button(); ?>
