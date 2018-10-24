@@ -17,7 +17,7 @@ include_once 'header_page.php'; ?>
                         <a href="<?php echo site_url(); ?>" ><img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/eudomus-120-white.png" alt="eudomus logo" /></a>
                     </div>
 
-                    <div class="col-md-8 head-menu">
+                    <div class="col-sm-8 col-sm-offset-2 col-md-8 head-menu">
                         <?php /*
                         <div class="cart-container">
                             <?php mincommerce_cart_button(); ?>
@@ -26,6 +26,7 @@ include_once 'header_page.php'; ?>
                         <?php wp_nav_menu(array('theme_location' => 'header-menu')); ?>
                     </div>
                 </div>
+                
                 <div class="row titbox">
                     <div class="col-xs-12">
                         <h1><?php the_title(); ?></h1>
