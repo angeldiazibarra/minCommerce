@@ -41,6 +41,7 @@ include_once 'header_page.php'; ?>
 <p><?php the_content(); ?></p>
 <?php endwhile; else: ?>
 <p><?php _e('<h1>Vaya...</h1><br>Lo siento, no he podido encontrar lo que estabas buscando.'); ?></p>
+<?php endif; ?>
 
                     </div>
                     
@@ -56,6 +57,4 @@ include_once 'header_page.php'; ?>
             
 	</section>
 						
-<?php endif; ?>
-
 <?php get_footer();
