@@ -36,7 +36,7 @@ include_once 'header_page.php'; ?>
             
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-md-8 col-md-offset-2">
 			
 <p><?php the_content(); ?></p>
 <?php endwhile; else: ?>
@@ -44,14 +44,6 @@ include_once 'header_page.php'; ?>
 <?php endif; ?>
 
                     </div>
-                    
-                    <div class="col-md-4">
-
-                     <?php
-                    dynamic_sidebar( 'pageswidgets' );
-                    ?>
-                                                                        
-                    </div>  
                 </div>
             </div>
             
