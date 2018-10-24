@@ -10,7 +10,7 @@ include_once 'header_page.php'; ?>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-        <header style="background-position: center; background-repeat: no-repeat; background-size: cover; background-image: url('<?php the_post_thumbnail_url('full'); ?>');">
+        <header style="height: 450px; background-position: center; background-repeat: no-repeat; background-size: cover; background-image: url('<?php the_post_thumbnail_url('full'); ?>');">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 eudomus">
