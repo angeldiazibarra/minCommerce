@@ -296,3 +296,94 @@ ol.commentlist{
     background-color: #867F77;
     opacity: 0.9;
 }
+
+.col2-set{
+    margin-bottom: 45px;
+}
+
+input[type="text"],input[type="email"],input[type="number"],input[type="tel"],input[type="select"],textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    @include border-radius(3px);
+}
+
+.head-menu{
+    text-align: center;
+    height: 32px;
+    margin-top: 2px;
+}
+
+.menu{
+    padding: 0;
+    li{
+        list-style: none;
+        float: left;
+        padding: 0;
+        a{
+            border-bottom: none;
+        }
+    }
+}
+
+header .menu li{
+        width: 100%;
+    a{
+        width: 100%;
+        padding: 10px 0;
+        border: 1px solid #ddd;
+        @include border-radius(5px);
+        margin-bottom: 3px;
+        display: inline-block;
+        &:hover{
+            border-color: $mainhover;
+            color: $maincolor;
+        }
+    }
+}
+
+.main .images, .main .entry-summary{
+    margin-bottom: 45px;
+}
+
+a.zoom{
+    border:none;
+}
+
+.main .images img{
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+.main .images .thumbnails{
+    margin-top: 5px;
+    a img.attachment-shop_thumbnail{
+        max-width: 23% !important;
+        margin-right: 2.66%;
+    }
+    a.last img.attachment-shop_thumbnail{
+        margin-right: 0;
+    }
+}
+
+.main #sidebar{
+    margin-top: 15px;
+    // border: 5px solid #eee;
+    background-color: $mainbg;
+    @include border-radius(10px);
+    
+    img{
+        margin-bottom: 15px;
+    }
+    
+    ul{
+        padding: 20px;
+    }
+    
+    h3{
+        border-bottom: 1px solid #ccc;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        font-size: 20px;
+        margin: 0;
+    }
+}
