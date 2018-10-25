@@ -95,8 +95,10 @@ header.pageheader{
     }
     h1, .menu li a{
         color: white;
-        border: 1px solid #fff;
         font-weight: $bold;
+    }
+    .menu li a{
+        border: 1px solid #fff;
     }
     .menu li a:hover{
         color: white;
