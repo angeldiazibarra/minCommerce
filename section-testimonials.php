@@ -3,8 +3,19 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-4">
-                        <h3>Pablo V.</h3>
-                        <p></p>
+                        <h4>Pablo V.</h4>
+                        <p>Reforma de un chalet en Jaca</p>
+                        <p><i>"xxx"</i></p>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <h4>María I.</h4>
+                        <p>Reforma de un piso en Zaragoza</p>
+                        <p><i>"yyy"</i></p>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <h4>Xavier P.</h4>
+                        <p>Reforma de una borda en Araguás</p>
+                        <p><i>"zzz"</i></p>
                     </div>
                 </div>
             </div>
