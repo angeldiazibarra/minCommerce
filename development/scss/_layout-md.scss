@@ -23,7 +23,7 @@ header .menu li{
         border: none !important;
         &:hover{
             border: none;
-            background-color: transparent;
+            background-color: transparent !important;
             color: #dadbdc;
         }
     } 
