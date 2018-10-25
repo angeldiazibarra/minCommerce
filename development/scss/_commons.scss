@@ -139,6 +139,8 @@ header.pageheader{
     background-position: center;
     background-repeat: repeat-x;
     background-size: cover;
+    background-attachment: fixed;
+    
     p,.btn{
         font-size: 18px;
     }
