@@ -3,7 +3,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-8 col-md-offset-2 testimonial">
-                        <div class="avatar"></div>
+                        <div class="avatar">
+                            <img src="" alt="https://eudomus.com/wp-content-themes/minCommerce/proyecto-instalacion-chimenea-paseo-cantera-jaca.jpg" alt="Reforma Integral Paseo de la Cantera Jaca"/>
+                        </div>
                         <div>
                         <h4>Pablo V.</h4>
                         <p>Reforma de un chalet en Jaca</p>
@@ -11,7 +13,9 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-6 col-md-offset-3 testimonial">
-                        <div class="avatar"></div>
+                        <div class="avatar">
+                            <img src="" alt="https://eudomus.com/wp-content-themes/minCommerce/proyecto-reforma-araguas.jpg" alt="Rehabilitación de una casa en Araguás del Solano"/>
+                        </div>
                         <div>
                         <h4>Xavier P.</h4>
                         <p>Rehabilitación de una casa en Araguás</p>
@@ -19,7 +23,9 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-8 col-md-offset-2 testimonial">
-                        <div class="avatar"></div>
+                        <div class="avatar">
+                            <img src="" alt="https://eudomus.com/wp-content-themes/minCommerce/proyecto-reforma-zaragoza-centro.jpg" alt="Reforma integral de un piso en el centro de Zaragoza"/>
+                        </div>
                         <div>
                         <h4>María I.</h4>
                         <p>Reforma de un piso en Zaragoza</p>
