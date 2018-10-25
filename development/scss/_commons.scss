@@ -69,6 +69,21 @@ a:hover{
     text-decoration: none;
 }
 
+header .menu li{
+        width: 100%;
+    a{
+        width: 100%;
+        padding: 10px 0;
+        border: 1px solid #aaa;
+        @include border-radius(5px);
+        margin-bottom: 3px;
+        display: inline-block;
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+}
+
 header.pageheader{
     min-height: 450px;
     h1{
@@ -80,10 +95,13 @@ header.pageheader{
     }
     h1, .menu li a{
         color: white;
+        border: 1px solid #fff;
         font-weight: $bold;
     }
     .menu li a:hover{
         color: white;
+        border: 1px solid #dadbdc;
+        background-color: rgba(255,255,255,0.1);
     }
     .titbox{
         margin-top: 60px;
@@ -351,23 +369,6 @@ input[type="text"],input[type="email"],input[type="number"],input[type="tel"],in
         padding: 0;
         a{
             border-bottom: none;
-        }
-    }
-}
-
-header .menu li{
-        width: 100%;
-    a{
-        width: 100%;
-        padding: 10px 0;
-        border: 1px solid #fff;
-        @include border-radius(5px);
-        margin-bottom: 3px;
-        display: inline-block;
-        &:hover{
-            background-color: rgba(255,255,255,0.1);
-            border: 1px solid #dadbdc;
-            color: #dadbdc;
         }
     }
 }
