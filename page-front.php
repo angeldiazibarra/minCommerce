@@ -46,6 +46,8 @@ include_once 'header_page.php'; ?>
                 </div>
             </div>
         </section>
+
+<?php include_once 'section-testimonials.php'; ?>
                         
         <section class="main default-page">
             <div class="container">
