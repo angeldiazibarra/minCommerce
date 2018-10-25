@@ -15,7 +15,7 @@
                     <div class="col-xs-12 col-md-8 col-md-offset-2">
                         <h4>María I.</h4>
                         <p>Reforma de un piso en Zaragoza</p>
-                        <p><i>"Habíamos heredado un piso antiguo que necesitaba urgente una reforma y queríamos un diseño eficiente adaptado a nuestras necesidades. Desde el principio en EUDOMUS tuvieron en cuenta todas y cada una de nuestras preferencias, estamos muy contentos por la ejecución del proyecto y el resultado final. Todo el mundo que viene a casa se sorprende de cómo ha quedado."</i></p>
+                        <p><i>"Heredamos un piso antiguo que necesitaba una reforma integral y queríamos un diseño eficiente adaptado a nuestras necesidades. Desde el principio en EUDOMUS tuvieron en cuenta todas nuestras preferencias, estamos muy contentos por la ejecución del proyecto y el resultado final. Todo el mundo que viene a casa se sorprende de cómo ha quedado."</i></p>
                     </div>
                 </div>
             </div>
