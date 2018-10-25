@@ -20,7 +20,7 @@ header .menu li{
     padding: 3px 20px 0 0;
     a{
         padding: 0;
-        border: none;
+        border: none !important;
         &:hover{
             border: none;
             background-color: transparent;
