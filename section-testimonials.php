@@ -4,7 +4,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-md-8 col-md-offset-2 testimonial">
                         <div class="avatar">
-                            <img src="https://eudomus.com/wp-content/themes/minCommerce/proyecto-instalacion-chimenea-paseo-cantera-jaca.jpg" alt="Reforma Integral Paseo de la Cantera Jaca"/>
+                            <img src="https://eudomus.com/wp-content/themes/minCommerce/resources/img/proyecto-instalacion-chimenea-paseo-cantera-jaca.jpg" alt="Reforma Integral Paseo de la Cantera Jaca"/>
                         </div>
                         <div>
                         <h4>Pablo V.</h4>
@@ -14,7 +14,7 @@
                     </div>
                     <div class="col-xs-12 col-md-6 col-md-offset-3 testimonial">
                         <div class="avatar">
-                            <img src="https://eudomus.com/wp-content/themes/minCommerce/proyecto-reforma-araguas.jpg" alt="Rehabilitación de una casa en Araguás del Solano"/>
+                            <img src="https://eudomus.com/wp-content/themes/minCommerce/resources/img/proyecto-reforma-araguas.jpg" alt="Rehabilitación de una casa en Araguás del Solano"/>
                         </div>
                         <div>
                         <h4>Xavier P.</h4>
@@ -24,7 +24,7 @@
                     </div>
                     <div class="col-xs-12 col-md-8 col-md-offset-2 testimonial">
                         <div class="avatar">
-                            <img src="https://eudomus.com/wp-content/themes/minCommerce/proyecto-reforma-zaragoza-centro.jpg" alt="Reforma integral de un piso en el centro de Zaragoza"/>
+                            <img src="https://eudomus.com/wp-content/themes/minCommerce/resources/img/proyecto-reforma-zaragoza-centro.jpg" alt="Reforma integral de un piso en el centro de Zaragoza"/>
                         </div>
                         <div>
                         <h4>María I.</h4>
