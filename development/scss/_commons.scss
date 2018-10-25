@@ -20,8 +20,53 @@ header{
     padding: 30px 0;
 }
 
-mbot-20{
+.container{
+    max-width:320px;
+}
+
+.mbot-20{
     margin-bottom: 20px;
+}
+
+.mtop-20{
+    margin-top: 20px;
+}
+
+.mtop-30{
+    margin-top: 30px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: $headings;
+}
+
+h1{
+    // font-size: 32px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+b, strong{
+    font-weight: $bolder;
+}
+
+p{
+    line-height: 1.75em;
+}
+
+a{
+    color: #333;
+    border-bottom: 1px solid #ccc;
+}
+
+a:hover{
+    color: #666;
+    text-decoration: none;
 }
 
 header.pageheader{
@@ -45,10 +90,6 @@ header.pageheader{
         margin-bottom: 50px;
         text-align: center;
     }
-}
-
-.container{
-    max-width:320px;
 }
 
 .main{
@@ -88,24 +129,6 @@ iframe,object{
     border: none;
 }
 
-b, strong{
-    font-weight: $bolder;
-}
-
-p{
-    line-height: 1.75em;
-}
-
-a{
-    color: #333;
-    border-bottom: 1px solid #ccc;
-}
-
-a:hover{
-    color: #666;
-    text-decoration: none;
-}
-
 a.contactlink{
     text-decoration: none;
     border-bottom: none;
@@ -133,21 +156,6 @@ blockquote{
 
 .center{
     text-align: center;
-}
-
-h1, h2, h3, h4, h5, h6{
-    font-family: $headings;
-}
-
-h1{
-    // font-size: 32px;
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-h2{
-    font-size: 20px;
-    margin-bottom: 5px;
 }
 
 .main,.highlighted{
@@ -200,11 +208,11 @@ span.label-default{
 }
 
 footer{
-    -webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.1);
-    -moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.1);
-    box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.1);
-    background-color: $mainbg;
-    background-image: url(../img/spiral-white.png);
+    // -webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.1);
+    // -moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.1);
+    // box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.1);
+    // background-color: $mainbg;
+    // background-image: url(../img/spiral-white.png);
     color: #333;
     padding: 30px 0;
     ul{
@@ -286,14 +294,6 @@ ol.commentlist{
     li.alt{
         // background-color: #fcfcfc;
     }
-}
-
-.mtop-20{
-    margin-top: 20px;
-}
-
-.mtop-30{
-    margin-top: 30px;
 }
 
 .contactform{
