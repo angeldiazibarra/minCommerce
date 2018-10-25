@@ -2,13 +2,13 @@
     
             <div class="container">
                 <div class="row">
-                    <div <!-- class="col-sm-4 col-md-3" -->>
+                    <div>
                         <?php wp_nav_menu(array('theme_location' => 'first-footer-menu')); ?>
                     </div>
-                    <div <!-- class="col-sm-4 col-md-3" -->>
+                    <div>
                         <?php wp_nav_menu(array('theme_location' => 'second-footer-menu')); ?>
                     </div>
-                    <div <!-- class="col-sm-4 col-md-3 col-md-offset-3" -->>
+                    <div>
                         <div class="row">
                             <div class="col-xs-12 eudomus">
                                 <a href="<?php echo site_url(); ?>" ><img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/eudomus-120.png" alt="Logo" /> eudomus</a>
