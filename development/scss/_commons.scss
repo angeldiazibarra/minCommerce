@@ -146,9 +146,9 @@ header.pageheader{
     }
     .avatar{
         margin: auto;
-        width: 120px;
-        height: 120px;
-        @include border-radius(60px);
+        width: 150px;
+        height: 150px;
+        @include border-radius(75px);
         border: 3px solid #dddad5;
     }
 }
