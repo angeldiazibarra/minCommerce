@@ -2,7 +2,7 @@
         <section class="testimonials">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-md-8 col-md-offset-2">
+                    <div class="col-xs-12 col-md-8 col-md-offset-2 testimonial">
                         <div class="avatar"></div>
                         <div>
                         <h4>Pablo V.</h4>
@@ -10,7 +10,7 @@
                         <p><i class="fa fa-quote-left"></i> <i>¡Empresa totalmente recomendable! No sabíamos que teníamos tanto espacio, han aprovechado cada metro cuadrado al máximo. Estamos encantados con la profesionalidad y calidad del servicio. Hicieron la reforma de nuestra casa en los plazos y presupuesto acordados superando nuestras expectativas.</i> <i class="fa fa-quote-right"></i></p>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-6 col-md-offset-3">
+                    <div class="col-xs-12 col-md-6 col-md-offset-3 testimonial">
                         <div class="avatar"></div>
                         <div>
                         <h4>Xavier P.</h4>
@@ -18,7 +18,7 @@
                         <p><i class="fa fa-quote-left"></i> <i>Empresa seria donde las haya, de plena confianza. Cuidan los detalles al máximo y consiguen acabados muy profesionales. Ha sido un placer trabajar con ellos!</i> <i class="fa fa-quote-right"></i></p>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-8 col-md-offset-2">
+                    <div class="col-xs-12 col-md-8 col-md-offset-2 testimonial">
                         <div class="avatar"></div>
                         <div>
                         <h4>María I.</h4>

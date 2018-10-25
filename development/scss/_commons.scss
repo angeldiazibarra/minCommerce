@@ -129,14 +129,15 @@ header.pageheader{
     }
 }
 
-.testimonials, .contact{
-    padding-top: 60px;
-    padding-bottom: 60px;
-    text-align: center;
-}
-
 .testimonials{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: #fafbfc;
+    .testimonial{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
     h4{
         margin-bottom: 0;
     }
@@ -153,6 +154,9 @@ header.pageheader{
 }
 
 .contact{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
     color: #fff;
     text-shadow: 0 0 5px rgba(0,0,0,0.25);
     background: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url('https://eudomus.com/wp-content/themes/minCommerce/resources/img/suelo-parquet-tarima-madera-jaca.jpg');
