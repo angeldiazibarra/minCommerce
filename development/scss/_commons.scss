@@ -147,7 +147,10 @@ header.pageheader{
         border: 1px solid #fff;
         @include border-radius(5px);
         background-color: transparent;
+        margin-top: 15px;
+        color: #fff;
         &:hover{
+            cursor: pointer;
             background-color: rgba(255,255,255,0.1);
         }
     }
