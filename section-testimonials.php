@@ -5,7 +5,7 @@
                     <div class="col-xs-12 col-md-8 col-md-offset-2">
                         <h4>Pablo V.</h4>
                         <p>Reforma de un chalet en Jaca</p>
-                        <p><i>"¡Empresa totalmente recomendable! No sabíamos que teníamos tanto espacio, han aprovechado cada metro cuadrado al máximo. Estamos encantados con la profesionalidad y calidad del servicio. Hicieron la reforma de nuestra casa del Paseo de la Cantera en los plazos y presupuesto acordados superando nuestras expectativas."</i></p>
+                        <p><i><i class="fa fa-quote-left"></i> ¡Empresa totalmente recomendable! No sabíamos que teníamos tanto espacio, han aprovechado cada metro cuadrado al máximo. Estamos encantados con la profesionalidad y calidad del servicio. Hicieron la reforma de nuestra casa del Paseo de la Cantera en los plazos y presupuesto acordados superando nuestras expectativas."</i></p>
                     </div>
                     <div class="col-xs-12 col-md-6 col-md-offset-3">
                         <h4>Xavier P.</h4>
