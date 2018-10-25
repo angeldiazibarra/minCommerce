@@ -50,4 +50,6 @@ include_once 'header_page.php'; ?>
             
 	</section>
 						
-<?php get_footer();
+<?php 
+
+get_footer();

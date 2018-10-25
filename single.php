@@ -78,4 +78,8 @@
             
 	</section>
 						
-<?php get_footer();
+<?php
+
+include_once 'section-contact.php';
+
+get_footer();

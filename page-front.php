@@ -62,4 +62,8 @@ include_once 'header_page.php'; ?>
 <p><?php _e('<h1>Vaya...</h1><br>Lo siento, no he podido encontrar lo que estabas buscando.'); ?></p>
 <?php endif; ?>       
 						
-<?php get_footer();
+<?php
+
+include_once 'section-contact.php';
+
+get_footer();

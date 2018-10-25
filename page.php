@@ -60,4 +60,8 @@ include_once 'header_page.php'; ?>
             
 	</section>
 						
-<?php get_footer();
+<?php
+
+include_once 'section-contact.php';
+
+get_footer();
