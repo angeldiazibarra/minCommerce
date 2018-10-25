@@ -14,7 +14,7 @@
                     </div>
                     <div class="col-xs-12 col-md-4">
                         <h4>Xavier P.</h4>
-                        <p>Reforma de una borda en Araguás</p>
+                        <p>Rehabilitación de una casa en Araguás</p>
                         <p><i>"zzz"</i></p>
                     </div>
                 </div>
