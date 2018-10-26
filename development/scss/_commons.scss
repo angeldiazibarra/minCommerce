@@ -86,10 +86,6 @@ header .menu li{
 
 header.pageheader{
     min-height: 450px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
     h1{
         font-size: 32px;
     }
@@ -114,14 +110,6 @@ header.pageheader{
         margin-bottom: 50px;
         text-align: center;
     }
-}
-
-.darken{
-    display: table-cell;
-    vertical-align: top;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.25);
 }
 
 .main{
