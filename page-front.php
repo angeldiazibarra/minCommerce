@@ -8,7 +8,7 @@ include_once 'header_page.php'; ?>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-        <header class="pageheader" style="background-image:url('<?php the_post_thumbnail_url('full'); ?>'); background-position: center center; background-repeat: no-repeat; background-size:cover; background-attachment: fixed;">
+        <header class="pageheader" style="background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url('<?php the_post_thumbnail_url('full'); ?>'); background-position: center center; background-repeat: no-repeat; background-size:cover; background-attachment: fixed;">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 eudomus">
