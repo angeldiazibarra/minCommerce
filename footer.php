@@ -19,7 +19,7 @@
                                 <div class="center social">
                                     <i class="fa fa-fw fa-instagram"></i> &nbsp;
                                     <i class="fa fa-fw fa-facebook"></i> &nbsp;
-                                    <i class="fa fa-fw fa-linkedin"></i>
+                                    <i class="fa fa-fw fa-linkedin"></i> 
                                 </div>
                             </div>
                             <?php /*
