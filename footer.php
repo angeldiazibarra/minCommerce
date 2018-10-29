@@ -16,9 +16,11 @@
                                 
                                 <br><br>
                                 
-                                <i class="fa fa-fw fa-instagram"></i> &nbsp;
-                                <i class="fa fa-fw fa-facebook"></i> &nbsp;
-                                <i class="fa fa-fw fa-linkedin"></i>
+                                <div class="social">
+                                    <i class="fa fa-fw fa-instagram"></i> &nbsp;
+                                    <i class="fa fa-fw fa-facebook"></i> &nbsp;
+                                    <i class="fa fa-fw fa-linkedin"></i>
+                                </div>
                             </div>
                             <?php /*
                             <div class="col-xs-12 paymethods">
