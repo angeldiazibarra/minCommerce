@@ -19,10 +19,10 @@
                                 
                                 */ ?>
                                 
-                                <div class="center social">
-                                    <i class="fa fa-fw fa-instagram"></i> &nbsp;
-                                    <i class="fa fa-fw fa-facebook"></i> &nbsp;
-                                    <i class="fa fa-fw fa-linkedin"></i> 
+                                <div class="center">
+                                    <a href="https://www.instagram.com/eudomus/"><i class="fa fa-fw fa-instagram"></i></a> &nbsp;
+                                    <a href="https://www.facebook.com/eudomus.bioconstruccion.arquitectura/"<i class="fa fa-fw fa-facebook"></i></a> &nbsp;
+                                    <a href="https://www.linkedin.com/company/eudomus/"<i class="fa fa-fw fa-linkedin"></i></a> 
                                 </div>
                             </div>
                             <?php /*
