@@ -20,9 +20,9 @@
                                 */ ?>
                                 
                                 <div class="center">
-                                    <a href="https://www.instagram.com/eudomus/"><i class="fa fa-fw fa-instagram"></i></a> &nbsp;
-                                    <a href="https://www.facebook.com/eudomus.bioconstruccion.arquitectura/"<i class="fa fa-fw fa-facebook"></i></a> &nbsp;
-                                    <a href="https://www.linkedin.com/company/eudomus/"<i class="fa fa-fw fa-linkedin"></i></a> 
+                                    <a href="https://www.instagram.com/eudomus/" target="_blank"><i class="fa fa-fw fa-instagram"></i></a> &nbsp;
+                                    <a href="https://www.facebook.com/eudomus.bioconstruccion.arquitectura/" target="_blank"><i class="fa fa-fw fa-facebook"></i></a> &nbsp;
+                                    <a href="https://www.linkedin.com/company/eudomus/" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a> 
                                 </div>
                             </div>
                             <?php /*
