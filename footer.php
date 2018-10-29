@@ -21,6 +21,11 @@
                             */ ?>
                         </div>
                     </div>
+                    <div>
+                        <i class="fa fa-fw fa-instagram"></i> &nbsp;
+                        <i class="fa fa-fw fa-facebook"></i> &nbsp;
+                        <i class="fa fa-fw fa-linkedin"></i>
+                    </div>
                 </div>
             </div>
                 
