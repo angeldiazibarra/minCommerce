@@ -13,6 +13,12 @@
                         <div class="row">
                             <div class="col-xs-12 eudomus">
                                 <a href="<?php echo site_url(); ?>" ><img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/eudomus-120.png" alt="Logo" /> eudomus</a>
+                                
+                                <br><br>
+                                
+                                <i class="fa fa-fw fa-instagram"></i> &nbsp;
+                                <i class="fa fa-fw fa-facebook"></i> &nbsp;
+                                <i class="fa fa-fw fa-linkedin"></i>
                             </div>
                             <?php /*
                             <div class="col-xs-12 paymethods">
@@ -20,11 +26,6 @@
                             </div>
                             */ ?>
                         </div>
-                    </div>
-                    <div>
-                        <i class="fa fa-fw fa-instagram"></i> &nbsp;
-                        <i class="fa fa-fw fa-facebook"></i> &nbsp;
-                        <i class="fa fa-fw fa-linkedin"></i>
                     </div>
                 </div>
             </div>
