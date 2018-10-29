@@ -16,10 +16,10 @@
                                 
                                 <br><br>
                                 
-                                <div class="social">
-                                    <i class="fa fa-fw fa-instagram"></i> &nbsp;
-                                    <i class="fa fa-fw fa-facebook"></i> &nbsp;
-                                    <i class="fa fa-fw fa-linkedin"></i>
+                                <div class="center">
+                                    <i class="fa fa-fw fa-instagram social"></i> &nbsp;
+                                    <i class="fa fa-fw fa-facebook social"></i> &nbsp;
+                                    <i class="fa fa-fw fa-linkedin social"></i>
                                 </div>
                             </div>
                             <?php /*
