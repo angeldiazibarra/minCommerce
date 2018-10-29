@@ -327,8 +327,9 @@ footer{
         text-decoration: none;
         border: none;
     }
-    &:hover{
+    a:hover{
         opacity: 0.75;
+        cursor:pointer;
     }
 
     .social{
