@@ -12,9 +12,12 @@
                     <div>
                         <div class="row">
                             <div class="col-xs-12 eudomus">
+                                <?php /*
                                 <a href="<?php echo site_url(); ?>" ><img src="<?php bloginfo('stylesheet_directory'); ?>/resources/img/eudomus-120.png" alt="Logo" /> eudomus</a>
                                 
                                 <br><br>
+                                
+                                */ ?>
                                 
                                 <div class="center social">
                                     <i class="fa fa-fw fa-instagram"></i> &nbsp;
