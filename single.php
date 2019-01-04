@@ -35,7 +35,7 @@
                             </div>
                             <div class="col-sm-9">
                                 <br><b>Angel Diaz</b>
-                                <p>Soy arquitecto, jefe de obra y co-fundador de EUDOMUS. Puedes contactar conmigo en <a href="https://www.instagram.com/eudomus/" title="Sígueme en Instagram">Instagram</a> y <a href="https://www.facebook.com/eudomus.bioconstruccion.arquitectura/" title="Bioconstrucción y Arquitectura Sostenible">Facebook</a>.</p>
+                                <p>Soy arquitecto, bioconstructor y co-fundador de EUDOMUS. Puedes contactar conmigo en <a href="https://www.instagram.com/eudomus/" title="Sígueme en Instagram">Instagram</a> y <a href="https://www.facebook.com/eudomus.bioconstruccion.arquitectura/" title="Bioconstrucción y Arquitectura Sostenible">Facebook</a>.</p>
                                 <a href="https://twitter.com/angeldiazibarra" class="twitter-follow-button author-twt" data-show-count="true" data-lang="es">Seguir a @angeldiazibarra</a>
                             </div>
                             <?php }else if(get_the_author_meta('ID') == 4){ ?>
