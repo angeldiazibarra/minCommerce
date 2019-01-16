@@ -69,7 +69,7 @@
                         <div class="form-group col-xs-8">
                             <label for="cc-exp-month"><small><b>Fecha expiración:</b></small></label>
                             <div class="row">
-                                <div class="col-xs-6">
+                                <div class="col-xs-4">
                                     <input type="text" class="form-control" id="cc-exp-month" name="cc-exp-month" placeholder="04" required autocomplete="cc-exp-month">
                                 </div>
                                 <div class="col-xs-6">
