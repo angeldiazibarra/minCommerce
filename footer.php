@@ -50,7 +50,7 @@
                     
                     <div id="tpvalert" class="tpvalert">Pago online no disponible. Por favor, <a href="https://eudomus.com/contacto/">contáctanos</a>.</div>
                     
-                    <form id="tpvform">
+                    <form id="tpvform" onsubmit="return submittpv(event);">
 
                         <div class="form-group">
                             <label for="email"><small><b>Tu e-mail:</b></small></label>
@@ -85,7 +85,7 @@
                             </div>
                         </div>
                     
-                        <button id="tpvsend" class="tpvsend" onclick="submittpv(e)"><i class="fa fa-lock" aria-hidden="true"></i> &nbsp;Pago seguro 12€</button>
+                        <button class="tpvsend"><i class="fa fa-lock" aria-hidden="true"></i> &nbsp;Pago seguro 12€</button>
                     
                     </form>
                     
