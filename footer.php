@@ -38,7 +38,11 @@
         </footer>
 
         <div id="tpv" class="layover">
-            <div class="tpvbox"></div>
+            <div class="tpvbox">
+                <p><b>Comprar artículo:</b></p>
+                <p>Manual de Autoconstrucción de Viviendas de Adobe (PDF - 84 páginas)</p>
+                <h3>12€</h3>
+            </div>
         </div>
 	
         <script src="<?php bloginfo('stylesheet_directory'); ?>/resources/js/vendor/jquery.min.js"></script>
