@@ -3,6 +3,12 @@ $( document ).ready(function(){
 });
 
 function showid(id){
-    console.log('showid: ' + id);
+    // console.log('showid: ' + id);
     document.getElementById(id).style.display = 'block';
+}
+
+
+function hideid(id){
+    // console.log('hideid: ' + id);
+    document.getElementById(id).style.display = 'none';
 }

@@ -85,7 +85,7 @@
                     
                     <button class="tpvsend"><i class="fa fa-lock" aria-hidden="true"></i> Pago seguro 12€</button>
                     
-                    <div class="tpvcancel"><i class="fa fa-close" aria-hidden="true"></i> cancelar</div>
+                    <div class="tpvcancel" onclick="hideid('tpv')"><i class="fa fa-close" aria-hidden="true"></i> cancelar</div>
                 </div>
             </div>
         </div>

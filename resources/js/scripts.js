@@ -1,1 +1,1 @@
-function showid(id){console.log("showid: "+id),document.getElementById(id).style.display="block"}$(document).ready(function(){});
+function showid(id){document.getElementById(id).style.display="block"}function hideid(id){document.getElementById(id).style.display="none"}$(document).ready(function(){});
