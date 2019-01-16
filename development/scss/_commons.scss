@@ -542,7 +542,8 @@ a.zoom{
     color: #b5313a;
     border-color: #f1c9d0;
     background-color: #f6dcdd;
-    padding: 6px 10px;
+    padding: 10px;
+    @include border-radius(3px);
     a{
         color: #b5313a;
         border-bottom: 1px dotted #b5313a;
