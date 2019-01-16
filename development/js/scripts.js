@@ -13,8 +13,7 @@ function hideid(id){
     document.getElementById(id).style.display = 'none';
 }
 
-function submittpv(e) {
-   e.preventDefault();
+function submittpv() {
    hideid('tpvform');
    showid('tpvalert');
 }
