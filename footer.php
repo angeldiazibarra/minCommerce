@@ -40,7 +40,7 @@
         <div id="tpv" class="layover">
             <div class="tpvbox">
                 <p><b>Comprar artículo:</b></p>
-                <p>Manual de Autoconstrucción de Viviendas de Adobe (PDF - 84 páginas)</p>
+                <p>Manual de Autoconstrucción de<br>Viviendas de Adobe<br>(PDF - 84 páginas)</p>
                 <h3>12€</h3>
             </div>
         </div>
