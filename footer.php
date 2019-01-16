@@ -36,6 +36,8 @@
             </div>
                 
         </footer>
+
+        <div id="tpv" class="layover"></div>
 	
         <script src="<?php bloginfo('stylesheet_directory'); ?>/resources/js/vendor/jquery.min.js"></script>
         <script src="<?php bloginfo('stylesheet_directory'); ?>/resources/js/vendor/bootstrap.min.js"></script>
