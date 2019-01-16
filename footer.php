@@ -51,18 +51,18 @@
                     <h3>12€</h3>
                     
                     <div class="form-group">
-                      <label for="email">Tu e-mail:</label>
-                      <input type="email" class="form-control" id="email" placeholder="tu.correo@gmail.com">
+                        <label for="email"><small><b>Tu e-mail:</b></small></label>
+                        <input type="email" class="form-control" id="email" placeholder="tu.correo@gmail.com">
                     </div>
                     
                     <div class="form-group">
-                      <label for="cardname">Titular de la tarjeta:</label>
-                      <input type="text" class="form-control" id="cardname" placeholder="Nombre y Apellidos">
+                        <label for="cardname"><small><b>Titular de la tarjeta:</b></small></label>
+                        <input type="text" class="form-control" id="cardname" placeholder="Nombre y Apellidos">
                     </div>
                     
                     <div class="form-group">
-                      <label for="cardnumber">Número de la tarjeta:</label>
-                      <input type="text" class="form-control" id="cardnumber" placeholder="0123 4567 8901 2345">
+                        <label for="cardnumber"><small><b>Número de la tarjeta:</b></small></label>
+                        <input type="text" class="form-control" id="cardnumber" placeholder="0123 4567 8901 2345">
                     </div>
                     
                     <p><small><b>Fecha de expiración:</b></small></p>
