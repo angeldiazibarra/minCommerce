@@ -37,7 +37,9 @@
                 
         </footer>
 
-        <div id="tpv" class="layover"></div>
+        <div id="tpv" class="layover">
+            <div class="tpvbox"></div>
+        </div>
 	
         <script src="<?php bloginfo('stylesheet_directory'); ?>/resources/js/vendor/jquery.min.js"></script>
         <script src="<?php bloginfo('stylesheet_directory'); ?>/resources/js/vendor/bootstrap.min.js"></script>
