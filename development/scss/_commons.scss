@@ -484,8 +484,16 @@ a.zoom{
 
 .tpvbox{
     width: 300px;
-    background-color: white;
     min-height: 450px;
     margin: 100px auto;
-    padding: 30px;
+}
+
+.tpvbox-head{
+    padding: 20px;
+    background-color: #eee;
+}
+
+.tpvbox-body{
+    padding: 20px;    
+    background-color: white;
 }
