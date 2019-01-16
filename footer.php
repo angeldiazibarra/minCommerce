@@ -44,8 +44,30 @@
                 </div>
                 
                 <div class="tpvbox-body">
-                    <p>Manual de Autoconstrucción de<br>Viviendas de Adobe<br>(PDF - 84 páginas)</p>
+                    <p><b>Importe:</b></p>
                     <h3>12€</h3>
+                    
+                    <br>
+                    
+                    <p><b>Tu e-mail:</b></p>
+                    
+                    <br>
+                    
+                    <p><b>Titular de la tarjeta:</b></p>
+                    
+                    <br>
+                    
+                    <p><b>Número de la tarjeta:</b></p>
+                    
+                    <br>
+                    
+                    <p><b>Fecha de expiración:</b></p>
+                    
+                    <br>
+                    
+                    <p><b>CVV:</b></p>
+                    
+                    
                 </div>
             </div>
         </div>
