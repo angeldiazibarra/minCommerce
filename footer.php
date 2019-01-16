@@ -65,13 +65,17 @@
                         <input type="text" class="form-control" id="frmCCNum" name="cardnumber" placeholder="0123 4567 8901 2345" required autocomplete="cc-number">
                     </div>
                     
-                    <p><small><b>Fecha de expiración:</b></small></p>
-                    
-                    <div class="form-group">
-                        <label for="frmCCCVC"><small><b>CVV:</b></small></label>
-                        <input type="text" class="form-control" id="frmCCCVC" name="cvc" placeholder="123" required autocomplete="cc-csc">
+                    <div class="row">
+                        <div class="col-xs-8">
+                            <p><small><b>Fecha expiración:</b></small></p>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="form-group">
+                                <label for="frmCCCVC"><small><b>CVV:</b></small></label>
+                                <input type="text" class="form-control" id="frmCCCVC" name="cvc" placeholder="123" required autocomplete="cc-csc">
+                            </div>
+                        </div>
                     </div>
-                    
                 </div>
             </div>
         </div>
