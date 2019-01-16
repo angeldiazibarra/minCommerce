@@ -44,28 +44,28 @@
                 </div>
                 
                 <div class="tpvbox-body">
-                    <p><b>Importe:</b></p>
+                    <p><small><b>Importe:</b></small></p>
                     <h3>12€</h3>
                     
                     <br>
                     
-                    <p><b>Tu e-mail:</b></p>
+                    <p><small><small><b>Tu e-mail:</b></small></p>
                     
                     <br>
                     
-                    <p><b>Titular de la tarjeta:</b></p>
+                    <p><small><b>Titular de la tarjeta:</b></small></p>
                     
                     <br>
                     
-                    <p><b>Número de la tarjeta:</b></p>
+                    <p><small><b>Número de la tarjeta:</b></small></p>
                     
                     <br>
                     
-                    <p><b>Fecha de expiración:</b></p>
+                    <p><small><b>Fecha de expiración:</b></small></p>
                     
                     <br>
                     
-                    <p><b>CVV:</b></p>
+                    <p><small><b>CVV:</b></small></p>
                     
                     
                 </div>
