@@ -44,48 +44,50 @@
                 </div>
                 
                 <div class="tpvbox-body">
-                    
-                    <form>
-                        
+                                            
                     <p><small><b>Importe:</b></small></p>
                     <h3>12€</h3>
                     
-                    <div class="form-group">
-                        <label for="email"><small><b>Tu e-mail:</b></small></label>
-                        <input type="email" class="form-control" id="email" name="email" placeholder="tu.correo@gmail.com" required autocomplete="email">
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="frmNameCC"><small><b>Titular de la tarjeta:</b></small></label>
-                        <input type="text" class="form-control" id="frmNameCC" name="ccname" placeholder="Nombre y Apellidos" required autocomplete="cc-name">
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="frmCCNum"><small><b>Número de la tarjeta:</b></small></label>
-                        <input type="text" class="form-control" id="frmCCNum" name="cardnumber" placeholder="0123 4567 8901 2345" required autocomplete="cc-number">
-                    </div>
-                    
-                    <div class="row">
-                        <div class="form-group col-xs-8">
-                            <label for="cc-exp-month"><small><b>Fecha expiración:</b></small></label>
-                            <div class="row">
-                                <div class="col-xs-5">
-                                    <input type="text" class="form-control" id="cc-exp-month" name="cc-exp-month" placeholder="04" required autocomplete="cc-exp-month">
-                                </div>
-                                <div class="col-xs-6">
-                                    <input type="text" class="form-control" id="cc-exp-year" name="cc-exp-year" placeholder="2023" required autocomplete="cc-exp-year">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group col-xs-4">
-                            <label for="frmCCCVC"><small><b>CVV:</b></small></label>
-                            <input type="text" class="form-control" id="frmCCCVC" name="cvc" placeholder="123" required autocomplete="cc-csc">
-                        </div>
-                    </div>
-                    
                     <div class="tpvalert">Pago online no disponible. Por favor, <a href="https://eudomus.com/contacto/">contáctanos</a>.</div>
                     
-                    <button class="tpvsend"><i class="fa fa-lock" aria-hidden="true"></i> Pago seguro 12€</button>
+                    <form id="tpvform">
+
+                        <div class="form-group">
+                            <label for="email"><small><b>Tu e-mail:</b></small></label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="tu.correo@gmail.com" required autocomplete="email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="frmNameCC"><small><b>Titular de la tarjeta:</b></small></label>
+                            <input type="text" class="form-control" id="frmNameCC" name="ccname" placeholder="Nombre y Apellidos" required autocomplete="cc-name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="frmCCNum"><small><b>Número de la tarjeta:</b></small></label>
+                            <input type="text" class="form-control" id="frmCCNum" name="cardnumber" placeholder="0123 4567 8901 2345" required autocomplete="cc-number">
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-xs-8">
+                                <label for="cc-exp-month"><small><b>Fecha expiración:</b></small></label>
+                                <div class="row">
+                                    <div class="col-xs-5">
+                                        <input type="text" class="form-control" id="cc-exp-month" name="cc-exp-month" placeholder="04" required autocomplete="cc-exp-month">
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <input type="text" class="form-control" id="cc-exp-year" name="cc-exp-year" placeholder="2023" required autocomplete="cc-exp-year">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group col-xs-4">
+                                <label for="frmCCCVC"><small><b>CVV:</b></small></label>
+                                <input type="text" class="form-control" id="frmCCCVC" name="cvc" placeholder="123" required autocomplete="cc-csc">
+                            </div>
+                        </div>
+                    
+                        <button class="tpvsend"><i class="fa fa-lock" aria-hidden="true"></i> Pago seguro 12€</button>
+                    
+                    </form>
                     
                     <div class="tpvcancel" onclick="hideid('tpv')"><i class="fa fa-close" aria-hidden="true"></i> cancelar</div>
                 </div>
