@@ -44,6 +44,8 @@
                 </div>
                 
                 <div class="tpvbox-body">
+                    
+                    <img class="tpvicons" alt="Iconos TPV" src="https://eudomus.com/wp-content/themes/minCommerce/resources/img/card-icons.png" />
                                             
                     <p><small><b>Importe:</b></small></p>
                     <h3>12€</h3>
