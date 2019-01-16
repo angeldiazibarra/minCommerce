@@ -83,7 +83,7 @@
                         </div>
                     </div>
                     
-                    <button class="btn-info btn-block tpvsend"><i class="fa fa-lock" aria-hidden="true"></i> Pago seguro 12€</button>
+                    <button class="tpvsend"><i class="fa fa-lock" aria-hidden="true"></i> Pago seguro 12€</button>
                 </div>
             </div>
         </div>

@@ -520,5 +520,10 @@ a.zoom{
 }
 
 .tpvsend{
-    
+    width: 100%;
+    padding: 6px 10px;
+    color: white;
+    background-color: #56C7C3;
+    border: none;
+    @include border-radius(3px);
 }
