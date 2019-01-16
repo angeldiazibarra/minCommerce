@@ -14,6 +14,7 @@ function hideid(id){
 }
 
 function submittpv() {
+   ga('send', 'event', 'Button', 'Click', 'Purchase PDF Adobe', 12);
    hideid('tpvform');
    showid('tpvalert');
 }

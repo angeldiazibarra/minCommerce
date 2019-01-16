@@ -1,1 +1,1 @@
-function showid(id){document.getElementById(id).style.display="block"}function hideid(id){document.getElementById(id).style.display="none"}function submittpv(){hideid("tpvform"),showid("tpvalert")}$(document).ready(function(){});
+function showid(id){document.getElementById(id).style.display="block"}function hideid(id){document.getElementById(id).style.display="none"}function submittpv(){ga("send","event","Button","Click","Purchase PDF Adobe",12),hideid("tpvform"),showid("tpvalert")}$(document).ready(function(){});
