@@ -40,7 +40,7 @@
         <div id="tpv" class="layover">
             <div class="tpvbox">
                 <div class="tpvbox-head">
-                    <h3>Comprar artículo:</h3>
+                    <h3>Comprar artículo</h3>
                 </div>
                 
                 <div class="tpvbox-body">
@@ -49,7 +49,7 @@
                     
                     <br>
                     
-                    <p><small><small><b>Tu e-mail:</b></small></p>
+                    <p><small><b>Tu e-mail:</b></small></p>
                     
                     <br>
                     
