@@ -83,7 +83,7 @@
                         </div>
                     </div>
                     
-                    <div class="alert-danger">Pago online no disponible. Por favor, <a href="https://eudomus.com/contacto/">contáctanos</a>.</div>
+                    <div class="alert alert-danger">Pago online no disponible. Por favor, <a href="https://eudomus.com/contacto/">contáctanos</a>.</div>
                     
                     <button class="tpvsend"><i class="fa fa-lock" aria-hidden="true"></i> Pago seguro 12€</button>
                     
