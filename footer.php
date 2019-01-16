@@ -44,22 +44,26 @@
                 </div>
                 
                 <div class="tpvbox-body">
+                    
+                    <form>
+                        
                     <p><small><b>Importe:</b></small></p>
                     <h3>12€</h3>
                     
-                    <br>
+                    <div class="form-group">
+                      <label for="email">Tu e-mail:</label>
+                      <input type="email" class="form-control" id="email" placeholder="tu.correo@gmail.com">
+                    </div>
                     
-                    <p><small><b>Tu e-mail:</b></small></p>
+                    <div class="form-group">
+                      <label for="cardname">Titular de la tarjeta:</label>
+                      <input type="text" class="form-control" id="cardname" placeholder="Nombre y Apellidos">
+                    </div>
                     
-                    <br>
-                    
-                    <p><small><b>Titular de la tarjeta:</b></small></p>
-                    
-                    <br>
-                    
-                    <p><small><b>Número de la tarjeta:</b></small></p>
-                    
-                    <br>
+                    <div class="form-group">
+                      <label for="cardnumber">Número de la tarjeta:</label>
+                      <input type="text" class="form-control" id="cardnumber" placeholder="0123 4567 8901 2345">
+                    </div>
                     
                     <p><small><b>Fecha de expiración:</b></small></p>
                     
