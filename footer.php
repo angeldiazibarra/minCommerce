@@ -56,13 +56,11 @@
                     </div>
                     
                     <div class="form-group">
-                        <br>
                         <label for="frmNameCC"><small><b>Titular de la tarjeta:</b></small></label>
                         <input type="text" class="form-control" id="frmNameCC" name="ccname" placeholder="Nombre y Apellidos" required autocomplete="cc-name">
                     </div>
                     
                     <div class="form-group">
-                        <br>
                         <label for="frmCCNum"><small><b>Número de la tarjeta:</b></small></label>
                         <input type="text" class="form-control" id="frmCCNum" name="cardnumber" placeholder="0123 4567 8901 2345" required autocomplete="cc-number">
                     </div>
@@ -70,7 +68,6 @@
                     <p><small><b>Fecha de expiración:</b></small></p>
                     
                     <div class="form-group">
-                        <br>
                         <label for="frmCCCVC"><small><b>CVV:</b></small></label>
                         <input type="text" class="form-control" id="frmCCCVC" name="cvc" placeholder="123" required autocomplete="cc-csc">
                     </div>

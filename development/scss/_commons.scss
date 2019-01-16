@@ -508,4 +508,9 @@ a.zoom{
     small{
         font-size: 14px;
     }
+    
+    input[type="text"], input[type="email"], input[type="number"], input[type="tel"], input[type="select"], textarea{
+        padding: 6px;
+        width: 100%;
+    }
 }
