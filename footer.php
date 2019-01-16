@@ -66,14 +66,13 @@
                     </div>
                     
                     <div class="row">
-                        <div class="col-xs-8">
+                        <div class="form-group col-xs-8">
                             <p><small><b>Fecha expiración:</b></small></p>
+                            <input type="text" class="form-control" id="frmCCCVC" name="cvc" placeholder="123" required autocomplete="cc-csc">
                         </div>
-                        <div class="col-xs-4">
-                            <div class="form-group">
-                                <label for="frmCCCVC"><small><b>CVV:</b></small></label>
-                                <input type="text" class="form-control" id="frmCCCVC" name="cvc" placeholder="123" required autocomplete="cc-csc">
-                            </div>
+                        <div class="form-group col-xs-4">
+                            <label for="frmCCCVC"><small><b>CVV:</b></small></label>
+                            <input type="text" class="form-control" id="frmCCCVC" name="cvc" placeholder="123" required autocomplete="cc-csc">
                         </div>
                     </div>
                 </div>
