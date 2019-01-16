@@ -52,25 +52,25 @@
                     
                     <div class="form-group">
                         <label for="email"><small><b>Tu e-mail:</b></small></label>
-                        <input type="email" class="form-control" id="email" placeholder="tu.correo@gmail.com">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="tu.correo@gmail.com" required autocomplete="email">
                     </div>
                     
                     <div class="form-group">
-                        <label for="cardname"><small><b>Titular de la tarjeta:</b></small></label>
-                        <input type="text" class="form-control" id="cardname" placeholder="Nombre y Apellidos">
+                        <label for="frmNameCC"><small><b>Titular de la tarjeta:</b></small></label>
+                        <input type="text" class="form-control" id="frmNameCC" name="ccname" placeholder="Nombre y Apellidos" required autocomplete="cc-name">
                     </div>
                     
                     <div class="form-group">
-                        <label for="cardnumber"><small><b>Número de la tarjeta:</b></small></label>
-                        <input type="text" class="form-control" id="cardnumber" placeholder="0123 4567 8901 2345">
+                        <label for="frmCCNum"><small><b>Número de la tarjeta:</b></small></label>
+                        <input type="text" class="form-control" id="frmCCNum" name="cardnumber" placeholder="0123 4567 8901 2345" required autocomplete="cc-number">
                     </div>
                     
                     <p><small><b>Fecha de expiración:</b></small></p>
                     
-                    <br>
-                    
-                    <p><small><b>CVV:</b></small></p>
-                    
+                    <div class="form-group">
+                        <label for="frmCCCVC"><small><b>CVV:</b></small></label>
+                        <input type="text" class="form-control" id="frmCCCVC" name="cvc" placeholder="123" required autocomplete="cc-csc">
+                    </div>
                     
                 </div>
             </div>
