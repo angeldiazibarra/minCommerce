@@ -527,6 +527,7 @@ a.zoom{
     border: none;
     @include border-radius(3px);
     margin: 20px 0 10px;
+    cursor: pointer;
 }
 
 .tpvcancel{
