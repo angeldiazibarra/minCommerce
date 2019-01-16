@@ -82,6 +82,8 @@
                             <input type="text" class="form-control" id="frmCCCVC" name="cvc" placeholder="123" required autocomplete="cc-csc">
                         </div>
                     </div>
+                    
+                    <button class="btn-info btn-block tpvsend"><i class="fa fa-lock" aria-hidden="true"></i> Pago seguro 12€</button>
                 </div>
             </div>
         </div>
