@@ -510,7 +510,11 @@ a.zoom{
     }
     
     input[type="text"], input[type="email"], input[type="number"], input[type="tel"], input[type="select"], textarea{
-        padding: 6px;
+        padding: 6px 10px;
         width: 100%;
+    }
+    
+    .form-group{
+        margin-top: 10px;
     }
 }
