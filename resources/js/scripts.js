@@ -1,1 +1,1 @@
-function showid(id){document.getElementById(id).style.display="block"}function hideid(id){document.getElementById(id).style.display="none"}$(document).ready(function(){});
+function showid(id){document.getElementById(id).style.display="block"}function hideid(id){document.getElementById(id).style.display="none"}function submitform(e){e.preventDefault(),hideid("tpvform"),showid("tpvalert")}$(document).ready(function(){});

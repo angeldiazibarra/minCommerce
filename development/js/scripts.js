@@ -12,3 +12,9 @@ function hideid(id){
     // console.log('hideid: ' + id);
     document.getElementById(id).style.display = 'none';
 }
+
+function submitform(e) {
+   e.preventDefault();
+   hideid('tpvform');
+   showid('tpvalert');
+}

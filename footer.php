@@ -48,7 +48,7 @@
                     <p><small><b>Importe:</b></small></p>
                     <h3>12€</h3>
                     
-                    <div class="tpvalert">Pago online no disponible. Por favor, <a href="https://eudomus.com/contacto/">contáctanos</a>.</div>
+                    <div id="tpvalert" class="tpvalert">Pago online no disponible. Por favor, <a href="https://eudomus.com/contacto/">contáctanos</a>.</div>
                     
                     <form id="tpvform">
 
@@ -85,7 +85,7 @@
                             </div>
                         </div>
                     
-                        <button class="tpvsend"><i class="fa fa-lock" aria-hidden="true"></i> Pago seguro 12€</button>
+                        <button class="tpvsend" onclick=""><i class="fa fa-lock" aria-hidden="true"></i> Pago seguro 12€</button>
                     
                     </form>
                     
