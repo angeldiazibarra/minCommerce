@@ -528,3 +528,12 @@ a.zoom{
     @include border-radius(3px);
     margin: 20px 0 10px;
 }
+
+.tpvcancel{
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    .fa{
+        color: #666;
+    }
+}
