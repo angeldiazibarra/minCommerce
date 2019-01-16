@@ -13,8 +13,9 @@ function hideid(id){
     document.getElementById(id).style.display = 'none';
 }
 
-function submittpv() {
+document.getElementById('tpvsend').addEventListener('click', function(event){
+  event.preventDefault();
    ga('send', 'event', 'Button', 'Click', 'Purchase PDF Adobe', 12);
    hideid('tpvform');
    showid('tpvalert');
-}
+});

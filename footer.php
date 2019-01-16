@@ -85,7 +85,7 @@
                             </div>
                         </div>
                     
-                        <div class="tpvsend" onclick="submittpv()"><i class="fa fa-lock" aria-hidden="true"></i> &nbsp;Pago seguro 12€</div>
+                        <button id="tpvsend" class="tpvsend" onclick="submittpv(e)"><i class="fa fa-lock" aria-hidden="true"></i> &nbsp;Pago seguro 12€</button>
                     
                     </form>
                     
