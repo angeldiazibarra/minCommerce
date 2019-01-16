@@ -43,8 +43,10 @@
                     <h3>Comprar artículo:</h3>
                 </div>
                 
-                <p>Manual de Autoconstrucción de<br>Viviendas de Adobe<br>(PDF - 84 páginas)</p>
-                <h3>12€</h3>
+                <div class="tpvbox-body">
+                    <p>Manual de Autoconstrucción de<br>Viviendas de Adobe<br>(PDF - 84 páginas)</p>
+                    <h3>12€</h3>
+                </div>
             </div>
         </div>
 	
