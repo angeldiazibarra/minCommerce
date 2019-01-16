@@ -66,7 +66,7 @@
                     </div>
                     
                     <div class="row">
-                        <div class="form-group col-xs-9">
+                        <div class="form-group col-xs-8">
                             <label for="cc-exp-month"><small><b>Fecha expiración:</b></small></label>
                             <div class="row">
                                 <div class="col-xs-5">
@@ -77,7 +77,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="form-group col-xs-3">
+                        <div class="form-group col-xs-4">
                             <label for="frmCCCVC"><small><b>CVV:</b></small></label>
                             <input type="text" class="form-control" id="frmCCCVC" name="cvc" placeholder="123" required autocomplete="cc-csc">
                         </div>
