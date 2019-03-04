@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/angeldiazibarra/minCommerce"
+    "url": "https://github.com/entpnomad/minCommerce"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
