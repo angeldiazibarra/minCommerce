@@ -101,9 +101,11 @@
         <script src="<?php bloginfo('stylesheet_directory'); ?>/resources/js/scripts.js"></script>
         <script src="<?php bloginfo('stylesheet_directory'); ?>/resources/js/tracking_ga.js"></script>
 
+        <?php /*
         <!-- Go to www.addthis.com/dashboard to customize your tools -->
         <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5726a1a2c48b1652"></script>
         <script async src="//platform.twitter.com/widgets.js"></script>
+        */ ?>
         
         <?php wp_footer(); ?>
         

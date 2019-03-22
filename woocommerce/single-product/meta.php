@@ -39,11 +39,12 @@ $tag_count = sizeof( get_the_terms( $post->ID, 'product_tag' ) );
 
 	<?php echo $product->get_tags( ', ', '<span class="tagged_as">' . _n( 'Tag:', 'Tags:', $tag_count, 'woocommerce' ) . ' ', '</span>' ); ?>
 
+        <?php /*
         <br>
         <h4>¡Compártelo!</h4>
-
         <!-- Go to www.addthis.com/dashboard to customize your tools -->
         <div class="addthis_sharing_toolbox"></div>
+        */ ?>
                 
 	<?php do_action( 'woocommerce_product_meta_end' ); ?>
                 

@@ -18,12 +18,12 @@
 <p><?php _e('<h1>Vaya...</h1><br>Lo siento, no he podido encontrar lo que estabas buscando.'); ?></p>
 <?php endif; ?>
 
+                        <?php /*
                         <br>
-
                         <h4>¡Compártelo!</h4>
-
                         <!-- Go to www.addthis.com/dashboard to customize your tools -->
                         <div class="addthis_sharing_toolbox"></div>
+                        */ ?>
 
                         <br>
                         <hr>
