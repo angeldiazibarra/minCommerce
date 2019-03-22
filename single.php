@@ -60,7 +60,6 @@
                         <br>
                         <br>
                         <br>
-                        <br>
                         <?php /* <h4>Deja tu comentario:</h4> */ ?>
                         <?php comments_template(); ?>
 
